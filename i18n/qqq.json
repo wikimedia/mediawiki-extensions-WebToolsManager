@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moriel Schottlender"
+		]
+	},
+	"ext-webToolsManager": "The name of the extension",
+	"ext-webToolsManager-desc": "{{desc|name=WebToolsManager|url=}}",
+	"ext-webToolsManager-error-nopermission": "An error message showing for users who have no permission to view Special:WebToolsManager",
+	"ext-webToolsManager-link": "Text for the link to the Special:WebToolsManager page",
+	"special-webToolsManager-title": "Title of the special page Special:WebToolsManager",
+	"special-webToolsManager-intro": "Description appearing on top of <tvar|1>Special:{{ll|WebToolsManager}}</>.",
+	"webtoolsmanager-analytics": "Section title for the analytics part of the configuration form in Special:WebToolsManager",
+	"webtoolsmanager-form-help-example": "Prefix text for an example. Parameters:\n* $1 The actual example to feature.",
+	"webtoolsmanager-form-analytics-google-id": "Label for the field accepting a Google Analytics ID",
+	"webtoolsmanager-form-analytics-google-id-help": "Explanation for the field that holds the Google Analytics ID in the Special:WebToolsManager form. Skipping that form field will disable that functionality.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Text for the error message that is shown when the Google Analytics ID is malformed.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Text for the field that sets anonymizing the IPs in Google Analytics",
+	"webtoolsmanager-form-analytics-exclude-titles": "Text for the field that accepts titles to exclude from tracking.",
+	"webtoolsmanager-opengraph": "Section title for the Open Graph part of the configuration form in Special:WebToolsManager.",
+	"webtoolsmanager-form-opengraph-activate": "Label for the checkbox that enables Open Graph tags on the wiki in the Special:WebToolsManager form.",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Label for the checkbox that tells the system to fall back on the wiki logo if no image is set to an article, in the Special:WebToolsManager form.",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Explanation for the checkbox that tells the system to fall back on the wiki logo in Open Graph section of the Special:WebToolsManager form.",
+	"webtoolsmanager-form-opengraph-description": "Label for the wiki description field for the Open Graph settings in Special:WebToolsManager form",
+	"webtoolsmanager-form-opengraph-description-help": "Explanation for the description field for the Open Graph settings in Special:WebToolsManager form.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Label for the field that holds the Facebook App ID in the Open Graph section of the Special:WebToolsManager form",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Explanation for the field that holds the Facbook App ID in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Label for the field that holds the twitter handle for the wiki in the Open Graph section of the Special:WebToolsManager form",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Explanation for the field that holds the twitter handle for the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Label for the field that holds the twitter handle of the creator of the wiki in the Open Graph section of the Special:WebToolsManager form",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Explanation for the field that holds the twitter handle for the creator of the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag."
+}

@@ -1,0 +1,60 @@
+{
+	"name": "WebToolsManager",
+	"author": "[https://github.com/mooeypoo Moriel Schottlender]",
+	"version": "1.0.0",
+	"license-name": "GPL-3.0-or-later",
+	"namemsg": "ext-webToolsManager",
+	"descriptionmsg": "ext-webToolsManager-desc",
+	"manifest_version": 2,
+	"MessagesDirs": {
+		"WebToolsManager": [ "i18n" ]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\WebToolsManager\\": "includes/"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "WebToolsManager/modules"
+	},
+	"ResourceModules": {
+		"ext.webToolsManager.specialPage": {
+			"scripts": [
+				"ext.webToolsManager.specialPage.js"
+			],
+			"messages": [],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-widgets"
+			]
+		},
+		"ext.webToolsManager.specialPage.styles": {
+			"styles": [
+				"ext.webToolsManager.specialPage.less"
+			]
+		}
+	},
+	"SpecialPages": {
+		"WebToolsManager": "MediaWiki\\Extensions\\WebToolsManager\\SpecialWebToolsManager"
+	},
+	"ExtensionMessagesFiles": {
+		"WebToolsManagerAlias": "WebToolsManager.alias.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
+		"PersonalUrls": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPersonalUrls" ],
+		"ResourceLoaderTestModules": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onResourceLoaderTestModules" ],
+		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"webtoolsmanagement": true
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AvailableRights": [
+		"webtoolsmanagement"
+	],
+	"type": "other"
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moriel Schottlender"
+		]
+	},
+	"ext-webToolsManager": "WebTools manager",
+	"ext-webToolsManager-desc": "Web tools management for a wiki",
+	"ext-webToolsManager-error-nopermission": "{{GENDER:$1|You}} do not have permission to access this page.",
+	"ext-webToolsManager-link": "WebTools manager",
+	"special-webToolsManager-title": "WebTools manager",
+	"special-webToolsManager-intro": "Manage web tools",
+	"webtoolsmanager-analytics": "Analytics",
+	"webtoolsmanager-form-help-example": "For example: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
+	"webtoolsmanager-form-analytics-google-id-help": "The ID for this tracking project. Leave blank to not use Google Analytics at all.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Given ID is malformed. Please use a correct Google Analytics ID",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonymize IP addresses",
+	"webtoolsmanager-form-analytics-exclude-titles": "Exclude titles from tracking",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Enable open graph meta tags",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Fall back on wiki logo",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "If no image is found in an article, fall back on the wiki logo for the `image` meta tag",
+	"webtoolsmanager-form-opengraph-description": "Wiki description",
+	"webtoolsmanager-form-opengraph-description-help": "Description that will appear in the summary tags for the main page, and any page that has no summary on its own. Leave empty for no description.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook App ID",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Leave blank to skip.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Twitter handle for the wiki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Leave blank to skip.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Twitter handle for the creator or owner of the wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Leave blank to skip."
+}
