@@ -6,14 +6,12 @@ namespace MediaWiki\Extensions\WebToolsManager;
  */
 class ConfigService {
 	/**
-	 * Stores field definition
+	 * Get field definition
 	 *
-	 * @var Array
+	 * @return Array
 	 */
-	protected $definition;
-
-	public function __construct() {
-		$this->definition = [
+	public static function getDefinition() {
+		return [
 			'analytics-google-id' => [
 				'default' => '',
 			],
@@ -49,8 +47,8 @@ class ConfigService {
 	 *
 	 * @return Array Valid form keys
 	 */
-	public function getValidConfigKeys() {
-		return array_keys( $this->definition );
+	public static function getValidConfigKeys() {
+		return array_keys( self::getDefinition() );
 	}
 
 	/**
@@ -58,7 +56,7 @@ class ConfigService {
 	 *
 	 * @param array $data Key/value pair for the configuration
 	 */
-	public function update( $data = [] ) {
+	public static function update( $data = [] ) {
 		$rows = [];
 		foreach ( $data as $key => $val ) {
 			$rows[] = [
@@ -81,8 +79,8 @@ class ConfigService {
 	 *
 	 * @return Array Configuration values
 	 */
-	public function getValues() {
-		$this->values = [];
+	public static function getValues() {
+		$values = [];
 		$db = wfGetDB( DB_REPLICA );
 		$res = $db->select(
 			'webtools_config',
@@ -93,13 +91,13 @@ class ConfigService {
 
 		if ( $res ) {
 			foreach( $res as $row ) {
-				$this->values[ $row->wtc_key ] = $row->wtc_value;
+				$values[ $row->wtc_key ] = $row->wtc_value;
 			}
 		}
 
 		$merged = array_merge(
-			$this->getDefaultValues(),
-			$this->values
+			self::getDefaultValues(),
+			$values
 		);
 		return $merged;
 	}
@@ -109,9 +107,9 @@ class ConfigService {
 	 *
 	 * @return Array Default values
 	 */
-	protected function getDefaultValues() {
+	public static function getDefaultValues() {
 		$defaults = [];
-		foreach ( $this->definition as $key => $data ) {
+		foreach ( self::getDefinition() as $key => $data ) {
 			$defaults[ $key ] = $data['default'];
 		}
 

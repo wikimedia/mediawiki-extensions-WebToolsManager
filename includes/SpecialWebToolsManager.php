@@ -14,7 +14,6 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 
 	public function __construct() {
 		parent::__construct( self::PAGE_NAME, '', false );
-		$this->configService = new ConfigService();
 	}
 
 	/**
@@ -55,8 +54,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	 */
 	protected function getFormFields() {
 		global $wgSitename;
-		$conf = $this->configService->getValues();
-		// $this->getOutput()->enableOOUI();
+		$conf = ConfigService::getValues();
 
 		$fields = [
 			// Analytics
@@ -65,7 +63,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 				'size' => '10',
 				'label-message' => 'webtoolsmanager-form-analytics-google-id',
 				'default' => $conf[ 'analytics-google-id' ],
-				'validation-callback' => [ $this->configService, 'validateGoogleId' ],
+				'validation-callback' => 'MediaWiki\\Extensions\\WebToolsManager\\ConfigService::validateGoogleId',
 				'help-message' => 'webtoolsmanager-form-analytics-google-id-help',
 				'section' => 'analytics'
 			],
@@ -150,19 +148,23 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	 * @return bool
 	 */
 	public function onSubmit( array $data, \HTMLForm $form = null ) {
-		$validFields = $this->configService->getValidConfigKeys();
+		$validFields = ConfigService::getValidConfigKeys();
 		$result = [];
 
 		foreach ( $data as $key => $value ) {
 			if ( in_array( $key, $validFields ) ) {
-				if ( $key === 'analytics-google-anonymizeip' ) {
+				if (
+					$key === 'analytics-google-anonymizeip' ||
+					$key === 'opengraph-activate' ||
+					$key === 'opengraph-fallbackOnLogo'
+				) {
 					$value = (int)$value;
 				}
 				$result[ $key ] = $value;
 			}
 		}
 
-		return $this->configService->update( $result );
+		return ConfigService::update( $result );
 	}
 
 	/**

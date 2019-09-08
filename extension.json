@@ -40,6 +40,7 @@
 		"WebToolsManagerAlias": "WebToolsManager.alias.php"
 	},
 	"Hooks": {
+		"PageContentSaveComplete": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPageContentSaveComplete" ],
 		"BeforePageDisplay": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
 		"PersonalUrls": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPersonalUrls" ],
 		"ResourceLoaderTestModules": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onResourceLoaderTestModules" ],
