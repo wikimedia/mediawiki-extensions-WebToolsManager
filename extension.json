@@ -1,5 +1,6 @@
 {
 	"name": "WebToolsManager",
+	"url": "https://www.mediawiki.org/wiki/Extension:WebToolsManager",
 	"author": "[https://github.com/mooeypoo Moriel Schottlender]",
 	"version": "1.0.0",
 	"license-name": "GPL-3.0-or-later",
