@@ -4,12 +4,11 @@
 			"Moriel Schottlender"
 		]
 	},
-	"ext-webToolsManager": "WebTools manager",
-	"ext-webToolsManager-desc": "A MediaWiki extension that provides an interactive UI for web tool management for wikis, like Open Graph, analytics, etc.",
-	"ext-webToolsManager-error-nopermission": "{{GENDER:$1|You}} do not have permission to access this page.",
-	"ext-webToolsManager-link": "WebTools manager",
-	"special-webToolsManager-title": "WebTools manager",
-	"special-webToolsManager-intro": "Manage web tools",
+	"webtoolsmanager-name": "WebTools manager",
+	"webtoolsmanager-desc": "A MediaWiki extension that provides an interactive UI for web tool management for wikis, like Open Graph, analytics, etc.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|You}} do not have permission to access this page.",
+	"webtoolsmanager-specialpage-link": "WebTools manager",
+	"webtoolsmanager-specialpage-title": "WebTools manager",
 	"webtoolsmanager-analytics": "Analytics",
 	"webtoolsmanager-form-help-example": "For example: $1",
 	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
