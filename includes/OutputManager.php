@@ -66,6 +66,12 @@ class OutputManager {
 	 * Output the script required for analytics, if applicable
 	 */
 	public function outputAnalytics() {
+		$mwConfig = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()
+			->makeConfig( 'webtoolsmanager' );
+		if ( !$mwConfig->get( 'WebToolsManagerAllowGoogleAnalytics' ) ) {
+			return;
+		}
+
 		$config = ConfigService::getValues();
 
 		$googleId = $config['analytics-google-id'];

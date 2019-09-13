@@ -24,7 +24,6 @@ $( document ).ready( function () {
 			} );
 		},
 		openGraphCheckboxWidget = infuseIfExists( $( '#mw-input-wpopengraph-activate' ) );
-
 	if ( openGraphCheckboxWidget ) {
 		// Infuse all dependent inputs
 		$( '.opengraph-dependent-input.oo-ui-fieldLayout' ).each( function () {

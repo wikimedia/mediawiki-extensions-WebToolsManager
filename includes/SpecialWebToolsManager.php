@@ -55,30 +55,11 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	protected function getFormFields() {
 		global $wgSitename;
 		$conf = ConfigService::getValues();
+		$mwConfig = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()
+			->makeConfig( 'webtoolsmanager' );
 
+		$analyticsFields = [];
 		$fields = [
-			// Analytics
-			'analytics-google-id' => [
-				'type' => 'text',
-				'size' => '10',
-				'label-message' => 'webtoolsmanager-form-analytics-google-id',
-				'default' => $conf[ 'analytics-google-id' ],
-				'validation-callback' => 'MediaWiki\\Extensions\\WebToolsManager\\ConfigService::validateGoogleId',
-				'help-message' => 'webtoolsmanager-form-analytics-google-id-help',
-				'section' => 'analytics'
-			],
-			'analytics-google-anonymizeip' => [
-				'type' => 'toggle',
-				'label-message' => 'webtoolsmanager-form-analytics-google-anonymizeip',
-				'default' => $conf[ 'analytics-google-anonymizeip' ],
-				'section' => 'analytics'
-			],
-			'analytics-exclude-titles' => [
-				'type' => 'titlesmultiselect',
-				'label-message' => 'webtoolsmanager-form-analytics-exclude-titles',
-				'default' => $conf[ 'analytics-exclude-titles' ],
-				'section' => 'analytics',
-			],
 			// Open graph
 			'opengraph-activate' => [
 				'type' => 'toggle',
@@ -130,7 +111,8 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 				'type' => 'text',
 				'size' => '10',
 				'label-message' => 'webtoolsmanager-form-opengraph-twitter-creator',
-				'placeholder' => wfMessage( 'webtoolsmanager-form-help-example' )->params( '@username' )->plain(),
+				'placeholder' => wfMessage( 'webtoolsmanager-form-help-example' )
+					->params( '@username' )->plain(),
 				'help-message' => 'webtoolsmanager-form-opengraph-twitter-creator-help',
 				'default' => $conf[ 'opengraph-twitter-creator' ],
 				'cssclass' => 'opengraph-dependent-input',
@@ -138,6 +120,34 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 				'section' => 'opengraph'
 			],
 		];
+
+		if ( $mwConfig->get( 'WebToolsManagerAllowGoogleAnalytics' ) ) {
+			$analyticsFields = [
+				// Analytics
+				'analytics-google-id' => [
+					'type' => 'text',
+					'size' => '10',
+					'label-message' => 'webtoolsmanager-form-analytics-google-id',
+					'default' => $conf[ 'analytics-google-id' ],
+					'validation-callback' => 'MediaWiki\\Extensions\\WebToolsManager\\ConfigService::validateGoogleId',
+					'help-message' => 'webtoolsmanager-form-analytics-google-id-help',
+					'section' => 'analytics'
+				],
+				'analytics-google-anonymizeip' => [
+					'type' => 'toggle',
+					'label-message' => 'webtoolsmanager-form-analytics-google-anonymizeip',
+					'default' => $conf[ 'analytics-google-anonymizeip' ],
+					'section' => 'analytics'
+				],
+				'analytics-exclude-titles' => [
+					'type' => 'titlesmultiselect',
+					'label-message' => 'webtoolsmanager-form-analytics-exclude-titles',
+					'default' => $conf[ 'analytics-exclude-titles' ],
+					'section' => 'analytics',
+				]
+			];
+		}
+		$fields = array_merge( $fields, $analyticsFields );
 
 		return $fields;
 	}

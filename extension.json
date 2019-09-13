@@ -25,7 +25,8 @@
 			"messages": [],
 			"dependencies": [
 				"oojs-ui-core",
-				"oojs-ui-widgets"
+				"oojs-ui-widgets",
+				"mediawiki.htmlform.ooui"
 			]
 		},
 		"ext.webToolsManager.specialPage.styles": {
@@ -46,6 +47,14 @@
 		"PersonalUrls": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPersonalUrls" ],
 		"ResourceLoaderTestModules": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onResourceLoaderTestModules" ],
 		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
+	},
+	"config": {
+		"WebToolsManagerAllowGoogleAnalytics": {
+			"value": false
+		}
+	},
+	"ConfigRegistry": {
+		"webtoolsmanager": "GlobalVarConfig::newInstance"
 	},
 	"GroupPermissions": {
 		"sysop": {
