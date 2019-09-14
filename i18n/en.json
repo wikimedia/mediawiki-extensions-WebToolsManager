@@ -5,7 +5,7 @@
 		]
 	},
 	"ext-webToolsManager": "WebTools manager",
-	"ext-webToolsManager-desc": "Web tools management for a wiki",
+	"ext-webToolsManager-desc": "A MediaWiki extension that provides an interactive UI for web tool management for wikis, like Open Graph, analytics, etc.",
 	"ext-webToolsManager-error-nopermission": "{{GENDER:$1|You}} do not have permission to access this page.",
 	"ext-webToolsManager-link": "WebTools manager",
 	"special-webToolsManager-title": "WebTools manager",
