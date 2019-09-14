@@ -81,7 +81,7 @@ class Hooks {
 			$url = \SpecialPage::getTitleFor( 'WebToolsManager' )->getLocalURL();
 			$link = [
 				'href' => $url,
-				'text' => wfMessage( 'ext-webToolsManager-link' ),
+				'text' => wfMessage( 'webtoolsmanager-specialpage-link' ),
 				'active' => ( $url == $title->getLocalURL() ),
 				'class' => [ 'ext-webToolsManager-link' ]
 			];

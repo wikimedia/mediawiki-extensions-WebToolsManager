@@ -25,7 +25,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 		parent::execute( $sub );
 
 		$out = $this->getOutput();
-		$out->setPageTitle( $this->msg( 'special-webToolsManager-title' ) );
+		$out->setPageTitle( $this->msg( 'webtoolsmanager-specialpage-title' ) );
 	}
 
 	/**
@@ -44,7 +44,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 		) {
 			throw new \ErrorPageError(
 				'special-webToolsManager-title',
-				'ext-webToolsManager-error-nopermission'
+				'webtoolsmanager-error-nopermission'
 			);
 		}
 	}
