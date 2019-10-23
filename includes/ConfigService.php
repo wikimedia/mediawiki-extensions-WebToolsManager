@@ -66,7 +66,7 @@ class ConfigService {
 		}
 
 		$db = wfGetDB( DB_MASTER );
-		return $db->replace(
+		$db->replace(
 			'webtools_config',
 			'wtc_key',
 			$rows,
@@ -90,7 +90,7 @@ class ConfigService {
 		);
 
 		if ( $res ) {
-			foreach( $res as $row ) {
+			foreach ( $res as $row ) {
 				$values[ $row->wtc_key ] = $row->wtc_value;
 			}
 		}
@@ -128,7 +128,8 @@ class ConfigService {
 		$valid = (
 			empty( $value ) ||
 			(bool)preg_match(
-				"/^UA-[0-9]{9}-[0-9]/", //UA-#########-#
+				// UA-#########-#
+				"/^UA-[0-9]{9}-[0-9]/",
 				$value
 			)
 		);

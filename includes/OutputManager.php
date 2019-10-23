@@ -7,6 +7,9 @@ namespace MediaWiki\Extensions\WebToolsManager;
 class OutputManager {
 	protected $out;
 
+	/**
+	 * @inheritDoc
+	 */
 	public function __construct( \OutputPage $out ) {
 		$this->out = $out;
 	}
@@ -29,7 +32,7 @@ class OutputManager {
 		$existingMetaTagKeys = array_map(
 			// We get array of arrays of key/val
 			function ( $keyval ) {
-				return $keyval[0]; // $key
+				return $keyval[0];
 			},
 			$this->out->getMetaTags()
 		);

@@ -1,5 +1,6 @@
 <?php
 namespace MediaWiki\Extensions\WebToolsManager;
+
 /**
  * WebToolsManager extension hooks
  *
@@ -22,8 +23,8 @@ class Hooks {
 	 * A method to respond to hook BeforePageDisplay
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 	 *
-	 * @param $out The OutputPage object.
-	 * @param $skin - Skin object that will be used to generate the page, added in 1.13.
+	 * @param \OutputPage $out The OutputPage object.
+	 * @param \Skin $skin - Skin object that will be used to generate the page, added in 1.13.
 	 */
 	public static function onBeforePageDisplay( \OutputPage $out, \Skin $skin ) {
 		// Add modules for the special page
@@ -71,7 +72,7 @@ class Hooks {
 	 * Respond to the LoadExtensionSchemaUpdates hook
 	 * Add or update necessary tables
 	 *
-	 * @param  DatabaseUpdater $updater
+	 * @param DatabaseUpdater $updater
 	 */
 	public static function onLoadExtensionSchemaUpdates( \DatabaseUpdater $updater ) {
 		$dir = dirname( __DIR__ );

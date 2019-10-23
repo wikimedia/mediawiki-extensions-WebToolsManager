@@ -7,6 +7,9 @@ namespace MediaWiki\Extensions\WebToolsManager;
 class MetadataManager {
 	protected $out;
 
+	/**
+	 * @inheritDoc
+	 */
 	public function __construct( \OutputPage $out ) {
 		$this->out = $out;
 	}
@@ -183,14 +186,12 @@ class MetadataManager {
 	/**
 	 * Generate the dynamic data that comes from the API
 	 *
-	 * @param  \Title $title Page title
-	 * @param  string|null $which A specific API module. Leave blank for all.
+	 * @param \Title $title Page title
+	 * @param string|null $which A specific API module. Leave blank for all.
 	 * @return string|array A string value if a module was given, or a keyed
 	 *  array for module/value pairs if no module was specified.
 	 */
 	public static function generateDynamicDataFromAPI( \Title $title, $which = null ) {
-		global $wgLogo;
-
 		if ( $which === null ) {
 			$result = [
 				'description' => '',

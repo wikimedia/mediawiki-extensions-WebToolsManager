@@ -1,7 +1,7 @@
 <?php
 namespace MediaWiki\Extensions\WebToolsManager;
 
-use \MediaWiki\MediaWikiServices as MediaWikiServices;
+use MediaWiki\MediaWikiServices;
 
 /**
  * Settings SpecialPage for WebToolsManager extension
