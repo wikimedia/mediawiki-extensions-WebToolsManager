@@ -8,28 +8,6 @@ namespace MediaWiki\Extensions\WebToolsManager;
  */
 class Hooks {
 	/**
-	 * Conditionally register the unit testing module for the ext.webToolsManager module
-	 * only if that module is loaded
-	 *
-	 * @param array $testModules The array of registered test modules
-	 * @param ResourceLoader $resourceLoader The reference to the resource loader
-	 * @return true
-	 */
-	public static function onResourceLoaderTestModules( array &$testModules, \ResourceLoader &$resourceLoader ) {
-		$testModules['qunit']['ext.webToolsManager.tests'] = [
-			'scripts' => [
-				'tests/WebToolsManager.test.js'
-			],
-			'dependencies' => [
-				'ext.webToolsManager'
-			],
-			'localBasePath' => __DIR__,
-			'remoteExtPath' => 'WebToolsManager',
-		];
-		return true;
-	}
-
-	/**
 	 * A method to respond to the hook PageContentSaveComplete
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/PageContentSaveComplete
 	 *

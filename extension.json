@@ -35,6 +35,16 @@
 			]
 		}
 	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "WebToolsManager",
+		"scripts": [
+			"tests/WebToolsManager.test.js"
+		],
+		"dependencies": [
+			"ext.webToolsManager.specialPage"
+		]
+	},
 	"SpecialPages": {
 		"WebToolsManager": "MediaWiki\\Extensions\\WebToolsManager\\SpecialWebToolsManager"
 	},
@@ -45,7 +55,6 @@
 		"PageContentSaveComplete": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPageContentSaveComplete" ],
 		"BeforePageDisplay": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
 		"PersonalUrls": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPersonalUrls" ],
-		"ResourceLoaderTestModules": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onResourceLoaderTestModules" ],
 		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
 	},
 	"config": {
