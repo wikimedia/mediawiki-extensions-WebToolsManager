@@ -27,5 +27,7 @@
 	"webtoolsmanager-form-opengraph-twitter-site": "Label for the field that holds the twitter handle for the wiki in the Open Graph section of the Special:WebToolsManager form",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Explanation for the field that holds the twitter handle for the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag.",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Label for the field that holds the twitter handle of the creator of the wiki in the Open Graph section of the Special:WebToolsManager form",
-	"webtoolsmanager-form-opengraph-twitter-creator-help": "Explanation for the field that holds the twitter handle for the creator of the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag."
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Explanation for the field that holds the twitter handle for the creator of the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag.",
+	"action-webtoolsmanagement": "",
+	"right-webtoolsmanagement": ""
 }
