@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"webtoolsmanager-name": "Gestore WebTools",
+	"webtoolsmanager-desc": "'N'estenzione MediaUicchi ca dèje 'na UI inderattive pa gestione de struminde web pe le uicchi, cumme Open Graph, analytics, ecc.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Tu}} non ge tìne pe permesse pe trasè jndr'à sta pàgene.",
+	"webtoolsmanager-specialpage-link": "Gestore WebTools",
+	"webtoolsmanager-specialpage-title": "Gestore WebTools",
+	"webtoolsmanager-analytics": "Analytics",
+	"webtoolsmanager-form-help-example": "Pe esembie: $1",
+	"webtoolsmanager-form-analytics-google-id": "ID Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "L'ID pe stu tracciamende de pruggette. Lasse vianghe pe no ausà Google Analytics.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "L'ID date jè malformate. Pe piacere ause 'nu ID de Google Analytics corrette",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizze le indirizze IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "Esclude le titole da 'u tracciamende",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Abbilite le meta tag de open graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Tuèrne sus a 'u logo de uicchi",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Ce nesciuna immaggine jè acchiate jndr'à 'na vôsce, mitte 'u logo de uicchi cumme meta tag 'immage'",
+	"webtoolsmanager-form-opengraph-description": "Descrizione de uicchi",
+	"webtoolsmanager-form-opengraph-description-help": "'A descrizione ca addà assè jndr'à le tag de riepiloghe pa pàgene prengepàle, e ogne pàgene ca non ge tène 'nu sommarie. Lasse vianghe pe nisciuna descrizione.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "ID app de Feisbuc",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Lasse vianghe pe zumbà.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Gestore de Tuitter pa uicchi",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Lasse vianghe pe zumbà.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Gestore de Tuitter pu ccrejatore o 'u probbietarie d'a uicchi",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Lasse vianghe pe zumbà.",
+	"action-webtoolsmanagement": "Gestisce Web tools",
+	"right-webtoolsmanagement": "gestisce Web tools"
+}

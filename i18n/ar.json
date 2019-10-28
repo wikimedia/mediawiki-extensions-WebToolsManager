@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"webtoolsmanager-name": "مدير أدوات الويب",
+	"webtoolsmanager-desc": "امتداد ميدياويكي يوفر واجهة مستخدم تفاعلية لإدارة أدوات الويب للويكيات، مثل الرسم البياني المفتوح، والتحليلات، إلخ.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|أنت}} ليس لديك الإذن للوصول إلى هذه الصفحة.",
+	"webtoolsmanager-specialpage-link": "مدير أدوات الويب",
+	"webtoolsmanager-specialpage-title": "مدير أدوات الويب",
+	"webtoolsmanager-analytics": "تحليلات",
+	"webtoolsmanager-form-help-example": "على سبيل المثال: $1",
+	"webtoolsmanager-form-analytics-google-id": "معرف تحليلات جوجل",
+	"webtoolsmanager-form-analytics-google-id-help": "معرف لمشروع التتبع هذا، اتركه فارغا لعدم استخدام تحليلات جوجل على الإطلاق.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "المعرف المعطى مشوه، الرجاء استخدام معرف تحليلات جوجل الصحيح",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "إخفاء هوية عناوين الآيبي",
+	"webtoolsmanager-form-analytics-exclude-titles": "استبعاد العناوين من التتبع",
+	"webtoolsmanager-opengraph": "الرسم البياني المفتوح",
+	"webtoolsmanager-form-opengraph-activate": "تمكين علامات التعريف للرسم البياني المفتوح",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "تراجع عن شعار الويكي",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "إذا لم يتم العثور على صورة في مقالة، فاسترجع على شعار الويكي للعلامة الوصفية للصورة",
+	"webtoolsmanager-form-opengraph-description": "وصف الويكي",
+	"webtoolsmanager-form-opengraph-description-help": "الوصف الذي سيظهر في علامات الملخص للصفحة الرئيسية، وأية صفحة لا تحتوي على ملخص من تلقاء نفسها، اتركه فارغا عند عدم وجود أي وصف.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "معرف تطبيق فيسبوك",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "اتركه فارغا للتخطي.",
+	"webtoolsmanager-form-opengraph-twitter-site": "تعامل تويتر مع الويكي",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "اتركه فارغا للتخطي.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "يتعامل تويتر مع المنشئ أو صاحب الويكي",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "اتركه فارغا للتخطي.",
+	"action-webtoolsmanagement": "إدارة أدوات الويب",
+	"right-webtoolsmanagement": "إدارة أدوات الويب"
+}

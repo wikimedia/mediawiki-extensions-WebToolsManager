@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"webtoolsmanager-name": "Раководител со Семрежни алатки",
+	"webtoolsmanager-desc": "Додаток за МедијаВики со интерактивен посредник за раководење со семрежните алатки на викија, како Отворен графикон, аналитика и тн.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Немате}} дозвола да ја отворите оваа страница.",
+	"webtoolsmanager-specialpage-link": "Раководител со Семрежни алатки",
+	"webtoolsmanager-specialpage-title": "Раководител со Семрежни алатки",
+	"webtoolsmanager-analytics": "Аналитика",
+	"webtoolsmanager-form-help-example": "На пример: $1",
+	"webtoolsmanager-form-analytics-google-id": "назнака на Гугл Аналитика",
+	"webtoolsmanager-opengraph": "Отворен графикон"
+}
