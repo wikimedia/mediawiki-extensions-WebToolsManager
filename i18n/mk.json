@@ -12,5 +12,22 @@
 	"webtoolsmanager-analytics": "Аналитика",
 	"webtoolsmanager-form-help-example": "На пример: $1",
 	"webtoolsmanager-form-analytics-google-id": "назнака на Гугл Аналитика",
-	"webtoolsmanager-opengraph": "Отворен графикон"
+	"webtoolsmanager-form-analytics-google-id-help": "Назнака за овој следечки проект. Оставете го празно ако сакате воопшто да не го користите Гугл Аналитика.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Дадената назнака е погрешно срочена. Користете исправна назнака од Гугл Аналитика",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Анонимизирај IP-адреси",
+	"webtoolsmanager-form-analytics-exclude-titles": "Изземи наслови од следење",
+	"webtoolsmanager-opengraph": "Отворен графикон",
+	"webtoolsmanager-form-opengraph-activate": "Овозможи метаознаки за отворени графикони",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Давај го логото на викито како резерва",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Ако статијата нема слика, метаознаката за слика ќе биде логото на викито",
+	"webtoolsmanager-form-opengraph-description": "Опис на викито",
+	"webtoolsmanager-form-opengraph-description-help": "Описот во ознаките за опис за главната страница, како и секоја страница која нема свој опис. Оставете го празно за да нема опис.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Назнака од прилогот на Фејсбук",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Оставете го празно за да го прескокнете.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Рачка на Твитер за викито",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Оставете го празно за да го прескокнете.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Рачка на Твитер за создавачот или сопственикот на викито",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Оставете го празно за да го прескокнете.",
+	"action-webtoolsmanagement": "Раководење со Семрежни алатки",
+	"right-webtoolsmanagement": "раководење со Семрежни алатки"
 }

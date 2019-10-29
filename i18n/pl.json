@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"webtoolsmanager-name": "Menedżer narzędzi sieciowych",
+	"webtoolsmanager-desc": "Rozszerzenie dodające na wiki interaktywny interfejs do zarządzenia sieciowymi narzędziami, takimi jak Open Graph, dane analityczne, itd.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Nie masz}} uprawnień do dostępu do tej strony.",
+	"webtoolsmanager-specialpage-link": "Menedżer narzędzi sieciowych",
+	"webtoolsmanager-specialpage-title": "Menedżer narzędzi sieciowych",
+	"webtoolsmanager-analytics": "Dane analityczne",
+	"webtoolsmanager-form-help-example": "Na przykład: $1",
+	"webtoolsmanager-form-analytics-google-id": "Identyfikator Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "Identyfikator projektu. Pozostaw to pole puste, aby w ogóle nie używać Google Analytics.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Podany identyfikator jest nieprawidłowy. Podaj poprawny.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizuj adresy IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "Wyklucz tytuły ze śledzenia",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Włącz meta-tagi Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Alternatywnie użyj logo wiki",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Jeżeli artykuł nie zawiera żadnego obrazu, użyj logo wiki w meta-tagu `image`",
+	"webtoolsmanager-form-opengraph-description": "Opis wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Opis, który pojawi się w tagach podsumowujących stronę główną i każdą inną stronę, która nie posiada własnego opisu. Zostaw to pole puste, jeżeli nie chcesz używać żadnego opisu.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Identyfikator aplikacji Facebooka",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Pozostaw to pole puste, aby pominąć aplikację Facebooka.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Pośrednik wiki na Twitterze",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Pozostaw to pole puste, aby pominąć pośrednika wiki na Twitterze.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Pośrednik twórcy lub właściciela wiki na Twitterze",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Pozostaw to pole puste, aby pominąć pośrednika twórcy lub właściciela wiki na Twitterze.",
+	"action-webtoolsmanagement": "zarządzania narzędziami sieciowymi",
+	"right-webtoolsmanagement": "Zarządzanie narzędziami sieciowymi"
+}
