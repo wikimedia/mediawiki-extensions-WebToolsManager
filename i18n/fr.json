@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"webtoolsmanager-name": "Gestionnaire des Outils Web",
+	"webtoolsmanager-desc": "Une extension de MediaWiki qui fournit une interface d’utilisateur interactive pour la gestion des outils web pour les wikis, tels que ''Open Graph'', les analytiques, etc.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|}}Vous ne disposez pas des droits d’accès à cette page.",
+	"webtoolsmanager-specialpage-link": "Gestionnaire des Outils Web",
+	"webtoolsmanager-specialpage-title": "Gestionnaire des Outils Web",
+	"webtoolsmanager-analytics": "Analytiques",
+	"webtoolsmanager-form-help-example": "Par exemple : $1",
+	"webtoolsmanager-form-analytics-google-id": "ID de ''Google Analytics''",
+	"webtoolsmanager-form-analytics-google-id-help": "L’ID pour ce projet de suivi. Laissez en blanc pour ne pas utiliser ''Google Analytics'' du tout.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "L’ID donné est malformé. Veuillez utiliser un ID ''Google Analytics'' correct.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonymiser les adresses IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "Exclure les titres du suivi",
+	"webtoolsmanager-opengraph": "''Open Graph''",
+	"webtoolsmanager-form-opengraph-activate": "Active les méta-balises pour ''Open Graph''",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Repli au logo du wiki",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si aucune image n’est trouvée dans un article, faire recours au logo du wiki pour la méta-balise « image »",
+	"webtoolsmanager-form-opengraph-description": "Description du wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Description qui apparaît dans les balises de résumé pour la page principale et pour toute page qui n’a elle-même aucune description. Laisser à blanc pour aucune description.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "ID de ''Facebook App''",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Laisser en blanc pour sauter.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Handle ''Twitter'' pour le wiki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Laisser en blanc pour sauter.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Handle ''Twitter'' pour le créateur ou le propriétaire du wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Laisser en blanc pour sauter.",
+	"action-webtoolsmanagement": "Gérer les outils Web",
+	"right-webtoolsmanagement": "gérer les outils Web"
+}
