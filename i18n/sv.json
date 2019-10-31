@@ -4,5 +4,6 @@
 			"WikiPhoenix"
 		]
 	},
-	"webtoolsmanager-form-help-example": "Till exempel: $1"
+	"webtoolsmanager-form-help-example": "Till exempel: $1",
+	"webtoolsmanager-form-opengraph-description": "Wikibeskrivning"
 }

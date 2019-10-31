@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"webtoolsmanager-name": "WebTools yöneticisi",
+	"webtoolsmanager-desc": "Open Graph, analitik vb. wikiler için web aracı yönetimi için etkileşimli bir UI sağlayan bir MediaWiki uzantısı.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Siz}} bu sayfaya erişim izniniz yok.",
+	"webtoolsmanager-specialpage-link": "WebTools yöneticisi",
+	"webtoolsmanager-specialpage-title": "WebTools yöneticisi",
+	"webtoolsmanager-analytics": "Analitik",
+	"webtoolsmanager-form-help-example": "Örneğin: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics Kimliği",
+	"webtoolsmanager-form-analytics-google-id-help": "Bu izleme projesinin kimliği. Google Analytics’i hiç kullanmamak için boş bırakın.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Verilen kimlik hatalı biçimlendirilmiş. Lütfen doğru bir Google Analytics Kimliği kullanın",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "IP adreslerini anonimleştir",
+	"webtoolsmanager-form-analytics-exclude-titles": "Başlıkları izlemeden hariç tut",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Açık grafik meta etiketlerini etkinleştir",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Wiki logosuna geri dön",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Bir makalede resim bulunamazsa, `image` meta etiketi için wiki logosuna geri dönün",
+	"webtoolsmanager-form-opengraph-description": "Wiki açıklaması",
+	"webtoolsmanager-form-opengraph-description-help": "Ana sayfanın özet etiketlerinde ve kendi başına bir özeti olmayan sayfalarda görünecek olan açıklama. Açıklama için boş bırakın.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook Uygulama Kimliği",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Atlamak için boş bırakın.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Wiki için Twitter kolu",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Atlamak için boş bırakın.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Wikinin yaratıcısı veya sahibi için Twitter tanıtıcısı",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Atlamak için boş bırakın.",
+	"action-webtoolsmanagement": "Web araçlarını yönet",
+	"right-webtoolsmanagement": "Web araçlarını yönet"
+}
