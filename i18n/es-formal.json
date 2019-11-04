@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"webtoolsmanager-form-analytics-google-id-badformat": "El identificador proporcionado tiene un formato incorrecto. Proporcione un identificador de Google Analytics correcto",
+	"webtoolsmanager-form-opengraph-description-help": "Descripción que aparecerá en las etiquetas «summary» en la página principal y cualquier otra página que carezca de resumen propio. Déjelo vacío para no utilizar ninguna descripción."
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"webtoolsmanager-name": "Gerenciador de WebTools",
+	"webtoolsmanager-desc": "Uma extensão do MediaWiki que fornece uma interface do usuário interativa para gerenciamento de ferramentas da web para wikis, como Open Graph, análises, etc.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Você}} não tem permissão para acessar esta página.",
+	"webtoolsmanager-specialpage-link": "Gerenciador de WebTools",
+	"webtoolsmanager-specialpage-title": "Gerenciador de WebTools",
+	"webtoolsmanager-analytics": "Análises",
+	"webtoolsmanager-form-help-example": "Por exemplo: $1",
+	"webtoolsmanager-form-analytics-google-id": "ID do Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "O ID deste projeto de rastreamento. Deixe em branco para não usar o Google Analytics.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "O ID fornecido está incorreto. Use um ID correto do Google Analytics",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizar endereços IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "Excluir títulos do rastreamento",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Ativar metatags de gráfico aberto",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Se nenhuma imagem for encontrada em um artigo, volte ao logotipo do wiki para a meta etiqueta de `image`",
+	"webtoolsmanager-form-opengraph-description": "Descrição da Wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Descrição que aparecerá nas tags de resumo da página principal e em qualquer página que não possua resumo por si só. Deixe em branco para nenhuma descrição.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "ID do aplicativo do Facebook",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Deixe em branco para pular.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Identificador do Twitter para a wiki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Deixe em branco para pular.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Identificador do Twitter para o criador ou proprietário da wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Deixe em branco para pular.",
+	"action-webtoolsmanagement": "Gerenciar ferramentas da Web",
+	"right-webtoolsmanagement": "gerenciar ferramentas da Web"
+}

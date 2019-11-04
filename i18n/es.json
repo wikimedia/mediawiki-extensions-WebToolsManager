@@ -1,27 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Canaan9801"
+			"Canaan9801",
+			"Fitoschido"
 		]
 	},
 	"webtoolsmanager-name": "Administrador de WebTools",
 	"webtoolsmanager-desc": "Una extensión de MediaWiki que provee una interfaz de usuario interactiva para administración de herramientas web para wikis, como Open Graph, analíticos, etc.",
 	"webtoolsmanager-error-nopermission": "{{{{GENDER:$1|Tú}} no tienes permiso para accesar esta página.",
-	"webtoolsmanager-specialpage-link": "Adminsitrador de WebTools",
+	"webtoolsmanager-specialpage-link": "Gestor de WebTools",
 	"webtoolsmanager-specialpage-title": "Administrador de WebTools",
-	"webtoolsmanager-analytics": "Analíticos",
+	"webtoolsmanager-analytics": "Analítica",
 	"webtoolsmanager-form-help-example": "Por ejemplo: $1",
-	"webtoolsmanager-form-analytics-google-id": "Identificacón de Google Analytics",
+	"webtoolsmanager-form-analytics-google-id": "Identificador de Google Analytics",
 	"webtoolsmanager-form-analytics-google-id-help": "La indentifación para este proyecto de seguimiento. Dejar en blanco para no utilizar Google Analytics en absoluto.",
-	"webtoolsmanager-form-analytics-google-id-badformat": "La indentificación dada es malformada. Por favor usa una indentificación de Google Analytics correcta.",
-	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizar dirrecciones IP",
+	"webtoolsmanager-form-analytics-google-id-badformat": "El identificador proporcionado tiene un formato incorrecto. Proporciona un identificador de Google Analytics correcto",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizar direcciones IP",
 	"webtoolsmanager-form-analytics-exclude-titles": "Exluir títulos de seguimiento.",
 	"webtoolsmanager-opengraph": "Open Graph",
-	"webtoolsmanager-form-opengraph-activate": "Habilitar meta tags para Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Activar metaetiquetas de Open Graph",
 	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Recurrir al logo del wiki",
 	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si no hay imagen encontrada en un artículo, recurrir al logo del wiki para la meta tag de 'imagen'",
-	"webtoolsmanager-form-opengraph-description": "Descripción de wiki",
-	"webtoolsmanager-form-opengraph-description-help": "Decripción que aparecerá en los tags de resumen para la página principal, y cualquier página que no tenga su propio resumen. Deja en blanco para no tener una descripción.",
+	"webtoolsmanager-form-opengraph-description": "Descripción del wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Descripción que aparecerá en las etiquetas «summary» en la página principal y cualquier otra página que carezca de resumen propio. Déjalo vacío para no utilizar ninguna descripción.",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Identificación de Aplicación de Facebook",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "Deja en blanco para saltar.",
 	"webtoolsmanager-form-opengraph-twitter-site": "Usuario de Twitter para la wiki",

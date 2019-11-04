@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|}}이 문서에 접근할 권한이 없습니다.",
+	"webtoolsmanager-form-help-example": "예: $1",
+	"webtoolsmanager-form-opengraph-description": "위키 설명",
+	"webtoolsmanager-form-opengraph-facebook-appid": "페이스북 앱 ID",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "건너뛰려면 빈 칸으로 두십시오.",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "건너뛰려면 빈 칸으로 두십시오."
+}

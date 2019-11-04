@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elroy"
+		]
+	},
+	"webtoolsmanager-name": "Webhulpmiddelenbeheer",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|U}} hebt geen toestemming om deze pagina te openen.",
+	"webtoolsmanager-specialpage-link": "Webhulpmiddelenbeheer",
+	"webtoolsmanager-specialpage-title": "Webhulpmiddelenbeheer",
+	"webtoolsmanager-analytics": "Analyse",
+	"webtoolsmanager-form-help-example": "Bijvoorbeeld: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analysenummer",
+	"webtoolsmanager-form-opengraph-description": "Wikibeschrijving",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebookprogrammanummer",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Leeg laten om over te slaan.",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Leeg laten om over te slaan.",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Leeg laten om over te slaan.",
+	"action-webtoolsmanagement": "Webhulpmiddelen beheren",
+	"right-webtoolsmanagement": "webhulpmiddelen beheren"
+}
