@@ -18,6 +18,7 @@
 	"webtoolsmanager-form-analytics-exclude-titles": "Excluir títulos do rastreamento",
 	"webtoolsmanager-opengraph": "Open Graph",
 	"webtoolsmanager-form-opengraph-activate": "Ativar metatags de gráfico aberto",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Voltar para o logotipo da wiki",
 	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Se nenhuma imagem for encontrada em um artigo, volte ao logotipo do wiki para a meta etiqueta de `image`",
 	"webtoolsmanager-form-opengraph-description": "Descrição da Wiki",
 	"webtoolsmanager-form-opengraph-description-help": "Descrição que aparecerá nas tags de resumo da página principal e em qualquer página que não possua resumo por si só. Deixe em branco para nenhuma descrição.",

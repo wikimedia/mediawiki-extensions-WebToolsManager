@@ -6,8 +6,14 @@
 	},
 	"webtoolsmanager-error-nopermission": "{{GENDER:$1|}}이 문서에 접근할 권한이 없습니다.",
 	"webtoolsmanager-form-help-example": "예: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
+	"webtoolsmanager-opengraph": "오픈 그래프",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "위키 로고로 대체 표시",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "문서에 이미지가 없으면 `image` 메타 태그에 위키 로고를 대신 배치합니다",
 	"webtoolsmanager-form-opengraph-description": "위키 설명",
 	"webtoolsmanager-form-opengraph-facebook-appid": "페이스북 앱 ID",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "건너뛰려면 빈 칸으로 두십시오.",
+	"webtoolsmanager-form-opengraph-twitter-site": "위키의 트위터 핸들",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "건너뛰려면 빈 칸으로 두십시오.",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "건너뛰려면 빈 칸으로 두십시오."
 }
