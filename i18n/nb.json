@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"webtoolsmanager-name": "WebTools-behandler",
+	"webtoolsmanager-desc": "En MediaWiki-utvidelse som gir et grensesnitt for behandling av nettverktøy for wikier, som Open Graph, analyse osv.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Du}} har ikke tilgang til denne siden.",
+	"webtoolsmanager-specialpage-link": "WebTools-behandler",
+	"webtoolsmanager-specialpage-title": "WebTools-behandler",
+	"webtoolsmanager-analytics": "Analyse",
+	"webtoolsmanager-form-help-example": "For eksempel: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics-ID",
+	"webtoolsmanager-form-analytics-google-id-help": "ID-en for dette sporingsprosjektet. La denne være tom om du ikke bruker Google Analytics.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Den gitte ID-en er ugyldig. Bruk en korrekt Google Analytics-ID",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonymiser IP-adresser",
+	"webtoolsmanager-form-analytics-exclude-titles": "Ekskluder titler fra sporing",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Slå på open graph-metatagger",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Fall tilbake på wikilogoen",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Hvis ikke noe bilde finnes i artikkelen, fall tilbake på wikilogoen for metataggen «image»",
+	"webtoolsmanager-form-opengraph-description": "Wikibeskrivelse",
+	"webtoolsmanager-form-opengraph-description-help": "Beskrivelse som vil dukke opp i sammendragstagger for hovedsiden og andre sider som ikke har egne sammendrag. La denne være tom for ingen beskrivelse.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook App-ID",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "La denne være blank for å hoppe over.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Twitter-navn for wikien",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "La denne være tom for å hoppe over.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Twitter-navn for oppretteren eller eieren av wikien",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "La denne være blank for å hoppe over.",
+	"action-webtoolsmanagement": "Behandle nettverktøy",
+	"right-webtoolsmanagement": "behandle nettverktøy"
+}
