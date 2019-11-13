@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"webtoolsmanager-name": "WebTools 管理",
+	"webtoolsmanager-desc": "提供用於 wiki 網路工具管理之互動型使用者介面的 MediaWiki 擴充套件，像是開啟圖形、分析、等等其它。",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|您}}沒有存取這個頁面的權限。",
+	"webtoolsmanager-specialpage-link": "WebTools 管理",
+	"webtoolsmanager-specialpage-title": "WebTools 管理",
+	"webtoolsmanager-analytics": "分析",
+	"webtoolsmanager-form-help-example": "例如：$1",
+	"webtoolsmanager-form-analytics-google-id": "Google 分析 ID",
+	"webtoolsmanager-form-analytics-google-id-badformat": "給予的 ID 有誤。請使用正確的 Google 分析 ID",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "匿名 IP 位址",
+	"webtoolsmanager-form-analytics-exclude-titles": "從追蹤排除標題",
+	"webtoolsmanager-opengraph": "開啟圖形",
+	"webtoolsmanager-form-opengraph-activate": "啟用開啟圖形 meta 標籤",
+	"webtoolsmanager-form-opengraph-description": "Wiki 描述",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook 應用程式 ID",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "留空以略過。",
+	"webtoolsmanager-form-opengraph-twitter-site": "Wiki 的 Twitter 處理",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "留空以略過。",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "留空以略過。"
+}
