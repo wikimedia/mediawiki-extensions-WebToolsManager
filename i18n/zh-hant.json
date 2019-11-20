@@ -18,6 +18,7 @@
 	"webtoolsmanager-opengraph": "開啟圖形",
 	"webtoolsmanager-form-opengraph-activate": "啟用開啟圖形 meta 標籤",
 	"webtoolsmanager-form-opengraph-description": "Wiki 描述",
+	"webtoolsmanager-form-opengraph-description-help": "描述會呈現在用於主頁面的摘要標籤，以及任何沒有摘要的頁面。若無描述請留空。",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook 應用程式 ID",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "留空以略過。",
 	"webtoolsmanager-form-opengraph-twitter-site": "Wiki 的 Twitter 處理",
