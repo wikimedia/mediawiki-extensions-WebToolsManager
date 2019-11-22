@@ -12,16 +12,22 @@
 	"webtoolsmanager-analytics": "分析",
 	"webtoolsmanager-form-help-example": "例如：$1",
 	"webtoolsmanager-form-analytics-google-id": "Google 分析 ID",
+	"webtoolsmanager-form-analytics-google-id-help": "用於此追蹤專案的 ID。完全不使用 Google 分析請留空。",
 	"webtoolsmanager-form-analytics-google-id-badformat": "給予的 ID 有誤。請使用正確的 Google 分析 ID",
 	"webtoolsmanager-form-analytics-google-anonymizeip": "匿名 IP 位址",
 	"webtoolsmanager-form-analytics-exclude-titles": "從追蹤排除標題",
 	"webtoolsmanager-opengraph": "開啟圖形",
 	"webtoolsmanager-form-opengraph-activate": "啟用開啟圖形 meta 標籤",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "改用 wiki 標誌",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "若在條目裡找不到圖片，「image」meta 標籤改用 wiki 標誌",
 	"webtoolsmanager-form-opengraph-description": "Wiki 描述",
 	"webtoolsmanager-form-opengraph-description-help": "描述會呈現在用於主頁面的摘要標籤，以及任何沒有摘要的頁面。若無描述請留空。",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook 應用程式 ID",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "留空以略過。",
 	"webtoolsmanager-form-opengraph-twitter-site": "Wiki 的 Twitter 處理",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "留空以略過。",
-	"webtoolsmanager-form-opengraph-twitter-creator-help": "留空以略過。"
+	"webtoolsmanager-form-opengraph-twitter-creator": "Wiki 的建立者或擁有者在 Twitter 上的使用者名稱",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "留空以略過。",
+	"action-webtoolsmanagement": "管理網路工具",
+	"right-webtoolsmanagement": "管理網路工具"
 }
