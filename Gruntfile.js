@@ -27,12 +27,21 @@ module.exports = function ( grunt ) {
 				'modules/**/*.{css,less}'
 			]
 		},
-		banana: conf.MessagesDirs,
+		banana: Object.assign(
+			conf.MessagesDirs,
+			{
+				options: {
+					requireLowerCase: 'initial',
+					requireCompleteMessageDocumentation: false
+				}
+			}
+		),
 		jsonlint: {
 			all: [
 				'*.json',
 				'**/*.json',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		}
 	} );
