@@ -2,11 +2,10 @@
 /**
  * Aliases for special pages in the WebToolsManager extension.
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'WebToolsManager' => array( 'WebToolsManager' ),
-);
+$specialPageAliases['en'] = [
+	'WebToolsManager' => [ 'WebToolsManager' ],
+];

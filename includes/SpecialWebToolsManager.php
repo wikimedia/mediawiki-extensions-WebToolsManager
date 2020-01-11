@@ -100,7 +100,8 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 				'type' => 'text',
 				'size' => '10',
 				'label-message' => 'webtoolsmanager-form-opengraph-twitter-site',
-				'placeholder' => wfMessage( 'webtoolsmanager-form-help-example' )->params( '@' . $wgSitename )->plain(),
+				'placeholder' => wfMessage( 'webtoolsmanager-form-help-example' )
+					->params( '@' . $wgSitename )->plain(),
 				'help-message' => 'webtoolsmanager-form-opengraph-twitter-site-help',
 				'default' => $conf[ 'opengraph-twitter-site' ],
 				'cssclass' => 'opengraph-dependent-input',
@@ -129,7 +130,8 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 					'size' => '10',
 					'label-message' => 'webtoolsmanager-form-analytics-google-id',
 					'default' => $conf[ 'analytics-google-id' ],
-					'validation-callback' => 'MediaWiki\\Extensions\\WebToolsManager\\ConfigService::validateGoogleId',
+					'validation-callback' =>
+						'MediaWiki\\Extensions\\WebToolsManager\\ConfigService::validateGoogleId',
 					'help-message' => 'webtoolsmanager-form-analytics-google-id-help',
 					'section' => 'analytics'
 				],

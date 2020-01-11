@@ -116,6 +116,8 @@ class MetadataManager {
 	/**
 	 * Intentionally regenerate the cached values for
 	 * the given title.
+	 *
+	 * @param Title $title
 	 */
 	public static function regenerateCacheValues( $title ) {
 		$values = self::generateDynamicDataFromAPI( $title );

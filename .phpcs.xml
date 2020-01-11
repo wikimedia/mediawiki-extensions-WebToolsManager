@@ -2,8 +2,6 @@
 <ruleset>
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="PSR12.Properties.ConstantVisibility.NotFound" />
-		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag" />
-		<exclude name="Generic.Files.LineLength.TooLong" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>

@@ -64,7 +64,9 @@ class Hooks {
 				'active' => ( $url == $title->getLocalURL() ),
 				'class' => [ 'ext-webToolsManager-link' ]
 			];
-			$personal_urls = wfArrayInsertAfter( $personal_urls, [ 'webtoolsmanager' => $link ], 'preferences' );
+			$personal_urls = wfArrayInsertAfter(
+				$personal_urls, [ 'webtoolsmanager' => $link ], 'preferences'
+			);
 		}
 	}
 
