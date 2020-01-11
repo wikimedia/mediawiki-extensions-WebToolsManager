@@ -31,8 +31,7 @@ module.exports = function ( grunt ) {
 			conf.MessagesDirs,
 			{
 				options: {
-					requireLowerCase: 'initial',
-					requireCompleteMessageDocumentation: false
+					requireLowerCase: 'initial'
 				}
 			}
 		),

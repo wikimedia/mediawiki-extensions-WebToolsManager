@@ -4,6 +4,8 @@
 			"Moriel Schottlender"
 		]
 	},
+	"webtoolsmanager-name": "{{name}}",
+	"webtoolsmanager-desc": "{{desc|name=WebToolsManager|url=https://www.mediawiki.org/wiki/Extension:WebToolsManager}}",
 	"webtoolsmanager-error-nopermission": "An error message showing for users who have no permission to view Special:WebToolsManager",
 	"webtoolsmanager-specialpage-link": "Text for the link to the Special:WebToolsManager page",
 	"webtoolsmanager-specialpage-title": "Title of the special page Special:WebToolsManager",
@@ -25,5 +27,7 @@
 	"webtoolsmanager-form-opengraph-twitter-site": "Label for the field that holds the twitter handle for the wiki in the Open Graph section of the Special:WebToolsManager form",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Explanation for the field that holds the twitter handle for the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag.",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Label for the field that holds the twitter handle of the creator of the wiki in the Open Graph section of the Special:WebToolsManager form",
-	"webtoolsmanager-form-opengraph-twitter-creator-help": "Explanation for the field that holds the twitter handle for the creator of the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag."
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Explanation for the field that holds the twitter handle for the creator of the wiki in the Open Graph section of the Special:WebToolsManager form. Skipping that form field will disable that meta tag.",
+	"action-webtoolsmanagement": "{{doc-action|webtoolsmanagement}}",
+	"right-webtoolsmanagement": "{{doc-right|webtoolsmanagement}}"
 }
