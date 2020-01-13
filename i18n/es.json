@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Canaan9801",
-			"Fitoschido"
+			"Fitoschido",
+			"DannyS712"
 		]
 	},
 	"webtoolsmanager-name": "Administrador de WebTools",
 	"webtoolsmanager-desc": "Una extensión de MediaWiki que provee una interfaz de usuario interactiva para administración de herramientas web para wikis, como Open Graph, analíticos, etc.",
-	"webtoolsmanager-error-nopermission": "{{{{GENDER:$1|Tú}} no tienes permiso para accesar esta página.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Tú}} no tienes permiso para accesar esta página.",
 	"webtoolsmanager-specialpage-link": "Gestor de WebTools",
 	"webtoolsmanager-specialpage-title": "Administrador de WebTools",
 	"webtoolsmanager-analytics": "Analítica",
