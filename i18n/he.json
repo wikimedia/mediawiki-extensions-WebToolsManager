@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"דגש חזק"
+			"דגש חזק",
+			"Amire80"
 		]
 	},
 	"webtoolsmanager-name": "מנהל כלי אינטרנט",
+	"webtoolsmanager-form-analytics-google-id-badformat": "המזהה שניתן פגום. נא להשתמש במזהה גוגל אנליטיקס נכון",
 	"webtoolsmanager-form-analytics-google-anonymizeip": "כתובת IP אנונימית",
 	"webtoolsmanager-form-opengraph-description": "תיאור הוויקי",
 	"webtoolsmanager-form-opengraph-facebook-appid": "מזהה פייסבוק",
