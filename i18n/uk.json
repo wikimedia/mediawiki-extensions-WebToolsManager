@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"webtoolsmanager-name": "Менеджер WebTools",
+	"webtoolsmanager-desc": "Розширення MediaWiki, яке надає інтерактивний інтерфейс користувача для керування веб-інструментами для вікі, такими як Open Graph, аналітика тощо.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|У вас}} немає дозволу на доступ до цієї сторінки.",
+	"webtoolsmanager-specialpage-link": "Менеджер WebTools",
+	"webtoolsmanager-specialpage-title": "Менеджер WebTools",
+	"webtoolsmanager-analytics": "Аналітика",
+	"webtoolsmanager-form-help-example": "Наприклад: $1",
+	"webtoolsmanager-form-analytics-google-id": "Ідентифікатор Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "Ідентифікатор цього проекту. Залиште порожнім, щоб не використовувати Google Analytics взагалі.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Вказаний ідентифікатор має неправильний формат. Будь ласка, використайте правильний ідентифікатор Google Analytics",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Анонімізувати IP-адреси",
+	"webtoolsmanager-form-analytics-exclude-titles": "Виключити назви із відстежування",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Увімкнути мета-теги Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Використати логотип вікі як запасне зображення",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Якщо в статті не знайдено зображення, використати логотип вікі як запасне зображення для мета-тегу «image»",
+	"webtoolsmanager-form-opengraph-description": "Опис вікі",
+	"webtoolsmanager-form-opengraph-description-help": "Опис, який з'явиться в тегах резюме для головної сторінки, і будь-якої сторінки, яка не має власного резюме. Залиште порожнім, щоб не використовувати опис.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Ідентифікатор Facebook-застосунка",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Залиште порожнім, щоб пропустити.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Ідентифікатор вікі у Twitter",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Залиште порожнім, щоб пропустити.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Ідентифікатор творця чи власника вікі у Twitter",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Залиште порожнім, щоб пропустити.",
+	"action-webtoolsmanagement": "керування WebTools",
+	"right-webtoolsmanagement": "керування WebTools"
+}
