@@ -28,6 +28,6 @@
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Leave blank to skip.",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Twitter handle for the creator or owner of the wiki",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Leave blank to skip.",
-	"action-webtoolsmanagement": "Manage Web tools",
-	"right-webtoolsmanagement": "manage Web tools"
+	"action-webtoolsmanagement": "manage Web tools",
+	"right-webtoolsmanagement": "Manage Web tools"
 }
