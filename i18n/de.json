@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"webtoolsmanager-name": "WebTools-Manager",
+	"webtoolsmanager-desc": "Eine MediaWiki-Erweiterung, die eine interaktive UI für die Verwaltung von Web-Tools für Wikis, wie z.B. Open Graph, Analytik usw., bietet.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Du}} hast nicht die erforderliche Berechtigung, um diese Seite aufrufen zu können.",
+	"webtoolsmanager-specialpage-link": "WebTools-Manager",
+	"webtoolsmanager-specialpage-title": "WebTools-Manager",
+	"webtoolsmanager-analytics": "Analytik",
+	"webtoolsmanager-form-help-example": "Zum Beispiel: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
+	"webtoolsmanager-form-analytics-google-id-help": "Die ID für dieses Tracking-Projekt. Lasse das Feld leer, um Google Analytics nicht zu verwenden.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Die angegebene ID ist missgebildet. Bitte verwende eine korrekte Google Analytics-ID.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonymisieren von IP-Adressen",
+	"webtoolsmanager-form-analytics-exclude-titles": "Titel von der Verfolgung ausschließen",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Rückgriff auf Wiki-Logo",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Wenn in einem Artikel kein Bild gefunden wird, greife auf das Wiki-Logo für den Meta-Tag „image“ zurück",
+	"webtoolsmanager-form-opengraph-description": "Wiki-Beschreibung"
+}

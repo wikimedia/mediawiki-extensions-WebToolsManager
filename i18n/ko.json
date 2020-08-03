@@ -15,5 +15,7 @@
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "건너뛰려면 빈 칸으로 두십시오.",
 	"webtoolsmanager-form-opengraph-twitter-site": "위키의 트위터 핸들",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "건너뛰려면 빈 칸으로 두십시오.",
-	"webtoolsmanager-form-opengraph-twitter-creator-help": "건너뛰려면 빈 칸으로 두십시오."
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "건너뛰려면 빈 칸으로 두십시오.",
+	"action-webtoolsmanagement": "웹 도구 관리",
+	"right-webtoolsmanagement": "웹 도구 관리"
 }

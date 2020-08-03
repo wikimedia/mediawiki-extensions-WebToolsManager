@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Thibaut120094",
-			"Verdy p"
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"webtoolsmanager-name": "Gestionnaire des Outils Web",
@@ -29,6 +30,6 @@
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Laisser en blanc pour sauter.",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Handle ''Twitter'' pour le créateur ou le propriétaire du wiki",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Laisser en blanc pour sauter.",
-	"action-webtoolsmanagement": "Gérer les outils Web",
-	"right-webtoolsmanagement": "gérer les outils Web"
+	"action-webtoolsmanagement": "gérer les outils Web",
+	"right-webtoolsmanagement": "Gérer les outils Web"
 }
