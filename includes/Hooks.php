@@ -8,9 +8,26 @@ namespace MediaWiki\Extensions\WebToolsManager;
  * @ingroup Extensions
  */
 class Hooks {
+
+	/**
+	 * Register hooks depending on version
+	 */
+	public static function registerExtension() {
+		global $wgHooks;
+		if ( class_exists( \MediaWiki\HookContainer\HookContainer::class ) ) {
+			// MW 1.35+
+			$wgHooks['PageSaveComplete'][] =
+				'MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPageContentSaveComplete';
+		} else {
+			$wgHooks['PageContentSaveComplete'][] =
+				'MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPageContentSaveComplete';
+		}
+	}
+
 	/**
 	 * A method to respond to the hook PageContentSaveComplete
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/PageContentSaveComplete
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/PageSaveComplete
 	 *
 	 * @param WikiPage $wikiPage
 	 */
