@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"webtoolsmanager-name": "Менеджер WebTools",
@@ -28,6 +29,6 @@
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Залиште порожнім, щоб пропустити.",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Ідентифікатор творця чи власника вікі у Twitter",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Залиште порожнім, щоб пропустити.",
-	"action-webtoolsmanagement": "керування WebTools",
-	"right-webtoolsmanagement": "Керування WebTools"
+	"action-webtoolsmanagement": "керування Web tools",
+	"right-webtoolsmanagement": "Керування Web tools"
 }
