@@ -8,7 +8,7 @@ class ConfigService {
 	/**
 	 * Get field definition
 	 *
-	 * @return Array
+	 * @return array
 	 */
 	public static function getDefinition() {
 		return [
@@ -45,7 +45,7 @@ class ConfigService {
 	/**
 	 * Get the valid keys for the form
 	 *
-	 * @return Array Valid form keys
+	 * @return array Valid form keys
 	 */
 	public static function getValidConfigKeys() {
 		return array_keys( self::getDefinition() );
@@ -77,7 +77,7 @@ class ConfigService {
 	/**
 	 * Get the configuration values
 	 *
-	 * @return Array Configuration values
+	 * @return array Configuration values
 	 */
 	public static function getValues() {
 		$values = [];
@@ -105,7 +105,7 @@ class ConfigService {
 	/**
 	 * Get the default values for the fields
 	 *
-	 * @return Array Default values
+	 * @return array Default values
 	 */
 	public static function getDefaultValues() {
 		$defaults = [];

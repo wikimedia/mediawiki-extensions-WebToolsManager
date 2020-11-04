@@ -33,7 +33,7 @@ class MetadataManager {
 	/**
 	 * Output all the metadata for this output
 	 *
-	 * @return Array An array where the keys are metadata
+	 * @return array An array where the keys are metadata
 	 *  property types, and the values are the values relevant
 	 *  for this title
 	 */

@@ -1,11 +1,14 @@
 {
 	"root": true,
-	"extends": "wikimedia",
+	"extends": [
+		"wikimedia",
+		"wikimedia/mediawiki",
+		"wikimedia/jquery"
+	],
 	"env": {
 		"browser": true
 	},
-	"globals": {
-		"$": false,
-		"OO": false
+	"rules": {
+		"no-jquery/no-global-selector": "warn"
 	}
 }
