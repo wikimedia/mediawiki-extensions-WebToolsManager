@@ -65,7 +65,6 @@ class Hooks {
 	 * @param array &$personal_urls Array of URLs to append to.
 	 * @param Title &$title Title of page being visited.
 	 * @param SkinTemplate $sk
-	 * @return bool true in all cases
 	 */
 	public static function onPersonalUrls( &$personal_urls, &$title, $sk ) {
 		$user = $sk->getUser();

@@ -188,6 +188,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 			'mediawiki.widgets.TagMultiselectWidget.styles',
 			'ext.webToolsManager.specialPage.styles',
 		] );
+		return '';
 	}
 
 	/**
