@@ -1,4 +1,4 @@
-$( document ).ready( function () {
+$( function () {
 	var openGraphDependentInputs = [],
 		/**
 		 * Run OO.ui.infuse if the element exists
