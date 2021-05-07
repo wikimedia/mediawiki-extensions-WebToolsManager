@@ -31,7 +31,7 @@ class OutputManager {
 		// not overriding any other extension that produced this
 		$existingMetaTagKeys = array_map(
 			// We get array of arrays of key/val
-			function ( $keyval ) {
+			static function ( $keyval ) {
 				return $keyval[0];
 			},
 			$this->out->getMetaTags()
