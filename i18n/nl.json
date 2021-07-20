@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elroy"
+			"Elroy",
+			"McDutchie"
 		]
 	},
 	"webtoolsmanager-name": "Webhulpmiddelenbeheer",
@@ -16,6 +17,6 @@
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "Leeg laten om over te slaan.",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Leeg laten om over te slaan.",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Leeg laten om over te slaan.",
-	"action-webtoolsmanagement": "Webhulpmiddelen beheren",
-	"right-webtoolsmanagement": "webhulpmiddelen beheren"
+	"action-webtoolsmanagement": "webhulpmiddelen te beheren",
+	"right-webtoolsmanagement": "Webhulpmiddelen beheren"
 }
