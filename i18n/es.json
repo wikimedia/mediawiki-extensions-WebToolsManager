@@ -3,7 +3,8 @@
 		"authors": [
 			"Canaan9801",
 			"DannyS712",
-			"Fitoschido"
+			"Fitoschido",
+			"Jakeukalane"
 		]
 	},
 	"webtoolsmanager-name": "Administrador de WebTools",
@@ -20,14 +21,14 @@
 	"webtoolsmanager-form-analytics-exclude-titles": "Exluir títulos de seguimiento.",
 	"webtoolsmanager-opengraph": "Open Graph",
 	"webtoolsmanager-form-opengraph-activate": "Activar metaetiquetas de Open Graph",
-	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Recurrir al logo del wiki",
-	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si no hay imagen encontrada en un artículo, recurrir al logo del wiki para la meta tag de 'imagen'",
-	"webtoolsmanager-form-opengraph-description": "Descripción del wiki",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Retornar al logo anterior de la wiki",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si no hay imagen encontrada en un artículo, recurrir al logo de la wiki para la meta tag de 'imagen'",
+	"webtoolsmanager-form-opengraph-description": "Descripción de la wiki",
 	"webtoolsmanager-form-opengraph-description-help": "Descripción que aparecerá en las etiquetas «summary» en la página principal y cualquier otra página que carezca de resumen propio. Déjalo vacío para no utilizar ninguna descripción.",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Identificación de Aplicación de Facebook",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "Deja en blanco para saltar.",
 	"webtoolsmanager-form-opengraph-twitter-site": "Usuario de Twitter para la wiki",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Deja en blanco para saltar.",
-	"webtoolsmanager-form-opengraph-twitter-creator": "Usuario de Twitter para el creador o dueño del wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Usuario de Twitter para el creador o dueño de la wiki",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Deja en blanco para saltar."
 }
