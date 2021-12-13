@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"MITO"
+		]
+	},
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Sinulla}} ei ole oikeuksia päästä tälle sivulle.",
+	"webtoolsmanager-analytics": "Analytiikka",
+	"webtoolsmanager-form-help-example": "Esimerkiksi: $1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics-tunniste",
+	"webtoolsmanager-form-opengraph-description": "Wikin kuvaus",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook App-tunniste"
+}
