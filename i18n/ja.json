@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sou0012"
+		]
+	},
+	"webtoolsmanager-desc": "Open GraphやAnalyticsなど、WikiのためのWebツール管理のためのインタラクティブなUIを提供するMediaWiki拡張機能です。",
+	"webtoolsmanager-specialpage-link": "WebToolsマネージャー",
+	"webtoolsmanager-specialpage-title": "WebToolsマネージャー",
+	"webtoolsmanager-analytics": "Analytics",
+	"webtoolsmanager-form-help-example": "例:$1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
+	"webtoolsmanager-form-analytics-google-id-help": "トラッキングプロジェクトのID。Google Analyticsを全く使用しない場合は空白にしてください。",
+	"webtoolsmanager-form-analytics-google-id-badformat": "指定されたIDは不正なものです。正しいGoogle Analytics IDを使用してください。",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "IPアドレスの匿名化",
+	"webtoolsmanager-form-analytics-exclude-titles": "トラッキングの対象から除外するタイトル",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Open Graphのメタタグを有効にする",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Wikiのロゴに置き換え",
+	"webtoolsmanager-form-opengraph-description": "Wikiの説明",
+	"webtoolsmanager-form-opengraph-description-help": "メインページや、それ自体に概要がないページの概要タグに表示される説明文です。説明文がない場合は、空のままにします。",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook App ID",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "スキップする場合は空欄にしてください。",
+	"webtoolsmanager-form-opengraph-twitter-site": "wikiのTwitterハンドルネーム",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "スキップする場合は空欄にしてください。",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Wikiの作成者または所有者のTwitterハンドルネーム",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "スキップする場合は空欄にしてください。"
+}
