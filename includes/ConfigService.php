@@ -1,5 +1,5 @@
 <?php
-namespace MediaWiki\Extensions\WebToolsManager;
+namespace MediaWiki\Extension\WebToolsManager;
 
 /**
  * Configuration service for WebToolsManager

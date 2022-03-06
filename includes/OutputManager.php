@@ -1,5 +1,5 @@
 <?php
-namespace MediaWiki\Extensions\WebToolsManager;
+namespace MediaWiki\Extension\WebToolsManager;
 
 /**
  * Output manager, controls the output according to the database

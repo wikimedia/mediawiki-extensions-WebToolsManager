@@ -1,5 +1,5 @@
 <?php
-namespace MediaWiki\Extensions\WebToolsManager;
+namespace MediaWiki\Extension\WebToolsManager;
 
 /**
  * WebToolsManager extension hooks
@@ -17,10 +17,10 @@ class Hooks {
 		if ( class_exists( \MediaWiki\HookContainer\HookContainer::class ) ) {
 			// MW 1.35+
 			$wgHooks['PageSaveComplete'][] =
-				'MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPageContentSaveComplete';
+				'MediaWiki\\Extension\\WebToolsManager\\Hooks::onPageContentSaveComplete';
 		} else {
 			$wgHooks['PageContentSaveComplete'][] =
-				'MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPageContentSaveComplete';
+				'MediaWiki\\Extension\\WebToolsManager\\Hooks::onPageContentSaveComplete';
 		}
 	}
 

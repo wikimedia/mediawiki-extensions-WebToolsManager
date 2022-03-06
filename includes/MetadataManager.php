@@ -1,5 +1,5 @@
 <?php
-namespace MediaWiki\Extensions\WebToolsManager;
+namespace MediaWiki\Extension\WebToolsManager;
 
 /**
  * Controls and manages the metadata needed for pages

@@ -1,5 +1,5 @@
 <?php
-namespace MediaWiki\Extensions\WebToolsManager;
+namespace MediaWiki\Extension\WebToolsManager;
 
 use MediaWiki\MediaWikiServices;
 
@@ -131,7 +131,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 					'label-message' => 'webtoolsmanager-form-analytics-google-id',
 					'default' => $conf[ 'analytics-google-id' ],
 					'validation-callback' =>
-						'MediaWiki\\Extensions\\WebToolsManager\\ConfigService::validateGoogleId',
+						'MediaWiki\\Extension\\WebToolsManager\\ConfigService::validateGoogleId',
 					'help-message' => 'webtoolsmanager-form-analytics-google-id-help',
 					'section' => 'analytics'
 				],

@@ -11,7 +11,7 @@
 		"WebToolsManager": [ "i18n" ]
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extensions\\WebToolsManager\\": "includes/"
+		"MediaWiki\\Extension\\WebToolsManager\\": "includes/"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "modules",
@@ -46,16 +46,16 @@
 		]
 	},
 	"SpecialPages": {
-		"WebToolsManager": "MediaWiki\\Extensions\\WebToolsManager\\SpecialWebToolsManager"
+		"WebToolsManager": "MediaWiki\\Extension\\WebToolsManager\\SpecialWebToolsManager"
 	},
 	"ExtensionMessagesFiles": {
 		"WebToolsManagerAlias": "WebToolsManager.alias.php"
 	},
-	"callback": "MediaWiki\\Extensions\\WebToolsManager\\Hooks::registerExtension",
+	"callback": "MediaWiki\\Extension\\WebToolsManager\\Hooks::registerExtension",
 	"Hooks": {
-		"BeforePageDisplay": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
-		"PersonalUrls": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPersonalUrls" ],
-		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
+		"BeforePageDisplay": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
+		"PersonalUrls": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onPersonalUrls" ],
+		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
 	},
 	"config": {
 		"WebToolsManagerAllowGoogleAnalytics": {
