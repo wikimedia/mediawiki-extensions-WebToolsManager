@@ -26,6 +26,10 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 
 		$out = $this->getOutput();
 		$out->setPageTitle( $this->msg( 'webtoolsmanager-specialpage-title' ) );
+		$out->addModuleStyles( [
+			'mediawiki.widgets.TagMultiselectWidget.styles',
+			'ext.webToolsManager.specialPage.styles',
+		] );
 	}
 
 	/**
@@ -177,18 +181,6 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 		}
 
 		return ConfigService::update( $result );
-	}
-
-	/**
-	 * Add header elements
-	 * @return string
-	 */
-	protected function preText() {
-		$this->getOutput()->addModuleStyles( [
-			'mediawiki.widgets.TagMultiselectWidget.styles',
-			'ext.webToolsManager.specialPage.styles',
-		] );
-		return '';
 	}
 
 	/**
