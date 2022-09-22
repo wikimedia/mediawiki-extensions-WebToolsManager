@@ -12,7 +12,7 @@
 	"webtoolsmanager-specialpage-link": "Gestionnaire des Outils Web",
 	"webtoolsmanager-specialpage-title": "Gestionnaire des Outils Web",
 	"webtoolsmanager-analytics": "Analytiques",
-	"webtoolsmanager-form-help-example": "Par exemple : $1",
+	"webtoolsmanager-form-help-example": "Par exemple : $1",
 	"webtoolsmanager-form-analytics-google-id": "ID de ''Google Analytics''",
 	"webtoolsmanager-form-analytics-google-id-help": "L’ID pour ce projet de suivi. Laissez en blanc pour ne pas utiliser ''Google Analytics'' du tout.",
 	"webtoolsmanager-form-analytics-google-id-badformat": "L’ID donné est malformé. Veuillez utiliser un ID ''Google Analytics'' correct.",
@@ -21,7 +21,7 @@
 	"webtoolsmanager-opengraph": "''Open Graph''",
 	"webtoolsmanager-form-opengraph-activate": "Active les méta-balises pour ''Open Graph''",
 	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Repli au logo du wiki",
-	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si aucune image n’est trouvée dans un article, faire recours au logo du wiki pour la méta-balise « image »",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si aucune image n’est trouvée dans un article, recourir au logo du wiki pour la méta-balise « image »",
 	"webtoolsmanager-form-opengraph-description": "Description du wiki",
 	"webtoolsmanager-form-opengraph-description-help": "Description qui apparaît dans les balises de résumé pour la page principale et pour toute page qui n’a elle-même aucune description. Laisser à blanc pour aucune description.",
 	"webtoolsmanager-form-opengraph-facebook-appid": "ID de ''Facebook App''",
@@ -30,6 +30,6 @@
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Laisser en blanc pour sauter.",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Handle ''Twitter'' pour le créateur ou le propriétaire du wiki",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Laisser en blanc pour sauter.",
-	"action-webtoolsmanagement": "gérer les outils Web",
-	"right-webtoolsmanagement": "Gérer les outils Web"
+	"action-webtoolsmanagement": "gérer les Outils web",
+	"right-webtoolsmanagement": "Gérer les Outils web"
 }
