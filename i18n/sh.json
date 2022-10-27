@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Nemate}} dopuštenje da otvorite ovu stranicu.",
+	"webtoolsmanager-form-opengraph-description": "Opis na wikiju"
+}
