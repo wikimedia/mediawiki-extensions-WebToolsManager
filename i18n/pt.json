@@ -15,5 +15,18 @@
 	"webtoolsmanager-form-analytics-google-id-badformat": "O identificador fornecido está malformado. Use um identificador correto do Google Analytics, por favor",
 	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizar endereços IP",
 	"webtoolsmanager-form-analytics-exclude-titles": "Títulos a excluir do seguimento",
-	"webtoolsmanager-opengraph": "Open Graph"
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Ativar metaetiquetas de Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Usar logótipo da wiki como logótipo de recurso",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Se não for encontrada nenhuma imagem num artigo, usar como imagem de recurso o logótipo da wiki para a metaetiqueta `image`",
+	"webtoolsmanager-form-opengraph-description": "Descrição da wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Descrição que irá aparecer nas etiquetas de resumo da página principal e de todas as páginas que não tenham resumo próprio. Deixar em branco para não haver nenhuma descrição.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Identificador do aplicação móvel do Facebook",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Deixar em branco para saltar.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Referência do Twitter para a wiki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Deixar em branco para saltar.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Referência do Twitter para o criador ou proprietário da wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Deixar em branco para saltar.",
+	"action-webtoolsmanagement": "gerir ferramentas web",
+	"right-webtoolsmanagement": "Gerir ferramentas web"
 }
