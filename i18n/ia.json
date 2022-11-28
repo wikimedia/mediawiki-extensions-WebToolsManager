@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"webtoolsmanager-desc": "Un extension de MediaWiki que forni un interfacie de usator interactive pro le gestion de utensiles web pro wikis, como Open Graph, analytica, etc.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Tu}} non ha le permission de acceder a iste pagina.",
+	"webtoolsmanager-specialpage-link": "Gestor WebTools",
+	"webtoolsmanager-specialpage-title": "Gestor WebTools",
+	"webtoolsmanager-analytics": "Analytica",
+	"webtoolsmanager-form-help-example": "Per exemplo: $1",
+	"webtoolsmanager-form-analytics-google-id": "ID de analytica Google",
+	"webtoolsmanager-form-analytics-google-id-help": "Le ID pro iste projecto de traciamento. Lassa vacue pro non usar le analytica de Google.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Le ID date non es in le formato correcte. Per favor usa un ID de analytica Google correcte.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonymisar adresses IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "Excluder titulos del traciamento",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Activar meta-etiquettas de Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Recurrer al logo del wiki",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Si nulle imagine es trovate in un articulo, recurrer al logo del wiki pro le meta-etiquetta `image`",
+	"webtoolsmanager-form-opengraph-description": "Description del wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Le description que apparera in le etiquettas de summario del pagina principal e de qualcunque pagina que non ha un proprie summario. Lassa vacue pro non haber alcun description.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "ID de application Facebook",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Lassa vacue pro saltar.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Pseudonymo Twitter pro le wiki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Lassa vacue pro saltar.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Le pseudonymo Twitter del creator o proprietario del wiki.",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Lassa vacue pro saltar.",
+	"action-webtoolsmanagement": "gerer utensiles web",
+	"right-webtoolsmanagement": "Gerer utensiles web"
+}
