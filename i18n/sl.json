@@ -4,5 +4,28 @@
 			"Eleassar"
 		]
 	},
-	"webtoolsmanager-form-opengraph-twitter-site": "Twitter ročica za viki"
+	"webtoolsmanager-name": "Upravitelj spletnih orodij",
+	"webtoolsmanager-desc": "Razširitev MediaWiki, ki ponuja interaktivni uporabniški vmesnik za upravljanje spletnih orodij za vikije, kot so Open Graph, analitika idr.",
+	"webtoolsmanager-error-nopermission": "Za dostop do te strani {{GENDER:$1|nimate}} dovoljenja.",
+	"webtoolsmanager-specialpage-link": "Upravitelj spletnih orodij",
+	"webtoolsmanager-specialpage-title": "Upravitelj spletnih orodij",
+	"webtoolsmanager-analytics": "Analitika",
+	"webtoolsmanager-form-help-example": "Zgled: $1",
+	"webtoolsmanager-form-analytics-google-id": "Identifikator Google Analitike",
+	"webtoolsmanager-form-analytics-google-id-help": "ID za ta sledilni projekt. Če ne želite uporabljati Google Analitike, pustite prazno.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Podani ID je napačno oblikovan. Uporabite pravilen ID Google Analitike.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimiziraj IP-naslove",
+	"webtoolsmanager-form-analytics-exclude-titles": "Iz sledenja izključi naslove",
+	"webtoolsmanager-opengraph": "Odprti grafikon",
+	"webtoolsmanager-form-opengraph-activate": "Omogoči metaoznake odprtega grafikona",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Nadomestno uporabi logotip vikija",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Če v članku ni najdene slike, prikaži za metaznačko »image« logotip vikija",
+	"webtoolsmanager-form-opengraph-description": "Opis vikija",
+	"webtoolsmanager-form-opengraph-description-help": "Opis, ki bo prikazan v oznakah povzetka za glavno stran in katero koli stran, ki sama po sebi nima povzetka. Če ni opisa, pustite prazno.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "ID aplikacije Facebook",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Za preskočitev pustite prazno.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Twitter ročica za viki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Za preskočitev pustite prazno.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Twitter ročica ustvarjalca ali lastnika vikija",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Za preskočitev pustite prazno."
 }
