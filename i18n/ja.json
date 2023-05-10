@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sou0012"
+			"Sou0012",
+			"Shirayuki"
 		]
 	},
 	"webtoolsmanager-desc": "Open GraphやAnalyticsなど、WikiのためのWebツール管理のためのインタラクティブなUIを提供するMediaWiki拡張機能です。",
@@ -11,7 +12,7 @@
 	"webtoolsmanager-form-help-example": "例:$1",
 	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
 	"webtoolsmanager-form-analytics-google-id-help": "トラッキングプロジェクトのID。Google Analyticsを全く使用しない場合は空白にしてください。",
-	"webtoolsmanager-form-analytics-google-id-badformat": "指定されたIDは不正なものです。正しいGoogle Analytics IDを使用してください。",
+	"webtoolsmanager-form-analytics-google-id-badformat": "指定された ID は正しくない形式です。正しい Google Analytics ID を使用してください。",
 	"webtoolsmanager-form-analytics-google-anonymizeip": "IPアドレスの匿名化",
 	"webtoolsmanager-form-analytics-exclude-titles": "トラッキングの対象から除外するタイトル",
 	"webtoolsmanager-opengraph": "Open Graph",
