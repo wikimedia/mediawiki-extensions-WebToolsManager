@@ -3,7 +3,8 @@
 		"authors": [
 			"Thibaut120094",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"webtoolsmanager-name": "Gestionnaire des Outils Web",
@@ -26,9 +27,9 @@
 	"webtoolsmanager-form-opengraph-description-help": "Description qui apparaît dans les balises de résumé pour la page principale et pour toute page qui n’a elle-même aucune description. Laisser à blanc pour aucune description.",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Identifiant de Facebook App",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "Laisser en blanc pour sauter.",
-	"webtoolsmanager-form-opengraph-twitter-site": "Handle ''Twitter'' pour le wiki",
+	"webtoolsmanager-form-opengraph-twitter-site": "Identifiant Twitter pour le wiki",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "Laisser en blanc pour sauter.",
-	"webtoolsmanager-form-opengraph-twitter-creator": "Handle ''Twitter'' pour le créateur ou le propriétaire du wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Identifiant Twitter du créateur ou du propriétaire du wiki",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Laisser en blanc pour sauter.",
 	"action-webtoolsmanagement": "gérer les Outils web",
 	"right-webtoolsmanagement": "Gérer les Outils web"
