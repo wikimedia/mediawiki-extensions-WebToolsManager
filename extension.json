@@ -54,7 +54,7 @@
 	"callback": "MediaWiki\\Extension\\WebToolsManager\\Hooks::registerExtension",
 	"Hooks": {
 		"BeforePageDisplay": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
-		"PersonalUrls": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onPersonalUrls" ],
+		"SkinTemplateNavigation::Universal": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onSkinTemplateNavigation__Universal" ],
 		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
 	},
 	"config": {
@@ -71,7 +71,7 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"AvailableRights": [
 		"webtoolsmanagement"

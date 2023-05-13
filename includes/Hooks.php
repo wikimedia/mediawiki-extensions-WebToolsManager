@@ -1,6 +1,8 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 /**
  * WebToolsManager extension hooks
  *
@@ -58,25 +60,26 @@ class Hooks {
 	}
 
 	/**
-	 * Handler for PersonalUrls hook.
+	 * Handler for SkinTemplateNavigation::Universal hook.
 	 * Add a link to the Web tools manager special page, for authorized users
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/PersonalUrls
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/SkinTemplateNavigation::Universal
 	 *
-	 * @param array &$personal_urls Array of URLs to append to.
-	 * @param Title &$title Title of page being visited.
-	 * @param SkinTemplate $sk
+	 * @param SkinTemplate $sktemplate
+	 * @param array &$links
 	 */
-	public static function onPersonalUrls( &$personal_urls, &$title, $sk ) {
-		$user = $sk->getUser();
+	public static function onSkinTemplateNavigation__Universal( $sktemplate, &$links ) {
+		$user = $sktemplate->getUser();
 		if (
 			\MediaWiki\MediaWikiServices::getInstance()
 			->getPermissionManager()
 			->userHasRight( $user, 'webtoolsmanagement' )
 		) {
+			$title = $sktemplate->getTitle();
+			$personal_urls = &$links['user-menu'];
 			$url = \SpecialPage::getTitleFor( 'WebToolsManager' )->getLocalURL();
 			$link = [
 				'href' => $url,
-				'text' => wfMessage( 'webtoolsmanager-specialpage-link' ),
+				'text' => $sktemplate->msg( 'webtoolsmanager-specialpage-link' )->text(),
 				'active' => ( $url == $title->getLocalURL() ),
 				'class' => [ 'ext-webToolsManager-link' ]
 			];
