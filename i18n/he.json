@@ -2,14 +2,34 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"דגש חזק"
+			"דגש חזק",
+			"דגש"
 		]
 	},
 	"webtoolsmanager-name": "מנהל כלי אינטרנט",
-	"webtoolsmanager-form-analytics-google-id-badformat": "המזהה שניתן פגום. נא להשתמש במזהה גוגל אנליטיקס נכון",
-	"webtoolsmanager-form-analytics-google-anonymizeip": "כתובת IP אנונימית",
+	"webtoolsmanager-desc": "הרחבת מדיה־ויקי שמספקת ממשק משתמש אינטראקטיבי לניבול כלי וב לאתרי ויקי, כגון Open Graph, ניתוח מידע, וכו'",
+	"webtoolsmanager-error-nopermission": "אין {{GENDER:$1|לך}} הרשאה לגשת לדף הזה.",
+	"webtoolsmanager-specialpage-link": "מנהל כלי וב",
+	"webtoolsmanager-specialpage-title": "מנהל כלי וב",
+	"webtoolsmanager-analytics": "ניתוח מידע",
+	"webtoolsmanager-form-help-example": "למשל: $1",
+	"webtoolsmanager-form-analytics-google-id": "מזהה Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "המזהה של פרויקט המעקב הזה. יש להשאיר את זה ריק כדי לא להשתמש ב־Google Analytics בכלל.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "המזהה שניתן שגוי. נא להשתמש במזהה Google Analytics נכון",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "להסיר מידע אישי מכתובות IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "לא לכלול כותרות במעקב",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "הפעלת מטא־תגים של open graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "גיבוי לסמל ויקי",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "אם לא נמצאה תמונה בערך, להראות בתור גיבוי את הסמל של הוויקי עבור המטא־תג `image`",
 	"webtoolsmanager-form-opengraph-description": "תיאור הוויקי",
-	"webtoolsmanager-form-opengraph-facebook-appid": "מזהה פייסבוק",
+	"webtoolsmanager-form-opengraph-description-help": "תיאור שיופיע בתגי הסיכום של העמוד הראשי, ושכל דף שאין לו תקציר משלו. יש להשאיר ריק כדי שלא יהיה תיאור.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "מזהה יישום פייסבוק",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "יש להשאיר ריק כדי לדלג.",
+	"webtoolsmanager-form-opengraph-twitter-site": "שם בטוויטר עבור הוויקי",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "יש להשאיר ריק כדי לדלג.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "חשבון בטוויטר עבור היוצר או הבעלים של הוויקי",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "יש להשאיר ריק כדי לדלג.",
 	"action-webtoolsmanagement": "נהל כלי רשת",
 	"right-webtoolsmanagement": "נהל כלי רשת"
 }
