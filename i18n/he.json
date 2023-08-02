@@ -6,7 +6,6 @@
 			"דגש חזק"
 		]
 	},
-	"webtoolsmanager-name": "מנהל כלי אינטרנט",
 	"webtoolsmanager-desc": "הרחבת מדיה־ויקי שמספקת ממשק משתמש אינטראקטיבי לניבול כלי וב לאתרי ויקי, כגון Open Graph, ניתוח מידע, וכו'",
 	"webtoolsmanager-error-nopermission": "אין {{GENDER:$1|לך}} הרשאה לגשת לדף הזה.",
 	"webtoolsmanager-specialpage-link": "מנהל כלי וב",
