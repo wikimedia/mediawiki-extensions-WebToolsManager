@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"沈澄心"
+		]
+	},
+	"webtoolsmanager-analytics": "分析",
+	"webtoolsmanager-form-opengraph-description": "wiki描述",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook应用程序ID",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "留空以跳过。",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "留空以跳过。"
+}
