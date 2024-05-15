@@ -25,5 +25,7 @@
 	"webtoolsmanager-form-opengraph-twitter-site": "wikiのTwitterハンドルネーム",
 	"webtoolsmanager-form-opengraph-twitter-site-help": "スキップする場合は空欄にしてください。",
 	"webtoolsmanager-form-opengraph-twitter-creator": "Wikiの作成者または所有者のTwitterハンドルネーム",
-	"webtoolsmanager-form-opengraph-twitter-creator-help": "スキップする場合は空欄にしてください。"
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "スキップする場合は空欄にしてください。",
+	"action-webtoolsmanagement": "ウェブツールの管理",
+	"right-webtoolsmanagement": "ウェブツールを管理"
 }
