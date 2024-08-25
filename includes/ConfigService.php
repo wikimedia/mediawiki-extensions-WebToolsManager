@@ -65,7 +65,7 @@ class ConfigService {
 			];
 		}
 
-		$db = wfGetDB( DB_MASTER );
+		$db = wfGetDB( DB_PRIMARY );
 		$db->replace(
 			'webtools_config',
 			'wtc_key',
