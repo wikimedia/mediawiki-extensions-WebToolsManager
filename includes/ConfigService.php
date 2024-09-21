@@ -1,6 +1,8 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Configuration service for WebToolsManager
  */
@@ -65,7 +67,7 @@ class ConfigService {
 			];
 		}
 
-		$db = wfGetDB( DB_MASTER );
+		$db = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$db->replace(
 			'webtools_config',
 			'wtc_key',
@@ -81,7 +83,7 @@ class ConfigService {
 	 */
 	public static function getValues() {
 		$values = [];
-		$db = wfGetDB( DB_REPLICA );
+		$db = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$res = $db->select(
 			'webtools_config',
 			[ 'wtc_key', 'wtc_value' ],
