@@ -163,7 +163,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	 * @param HTMLForm|null $form
 	 * @return bool
 	 */
-	public function onSubmit( array $data, \HTMLForm $form = null ) {
+	public function onSubmit( array $data, ?\HTMLForm $form = null ) {
 		$validFields = ConfigService::getValidConfigKeys();
 		$result = [];
 
