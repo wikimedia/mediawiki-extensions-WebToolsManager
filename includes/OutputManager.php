@@ -1,6 +1,8 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use MediaWiki\Html\Html;
+
 /**
  * Output manager, controls the output according to the database
  */
@@ -50,7 +52,7 @@ class OutputManager {
 			if ( isset( $tags[$name] ) ) {
 				$this->out->addHeadItem(
 					'meta:' . $name,
-					\Html::element( 'meta', [
+					Html::element( 'meta', [
 						'property' => $name,
 						'content' => $tags[$name]
 						] )

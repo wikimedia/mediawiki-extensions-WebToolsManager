@@ -1,6 +1,9 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use MediaWiki\Request\FauxRequest;
+use MediaWiki\Title\Title;
+
 /**
  * Controls and manages the metadata needed for pages
  */
@@ -188,12 +191,12 @@ class MetadataManager {
 	/**
 	 * Generate the dynamic data that comes from the API
 	 *
-	 * @param \Title $title Page title
+	 * @param Title $title Page title
 	 * @param string|null $which A specific API module. Leave blank for all.
 	 * @return string|array A string value if a module was given, or a keyed
 	 *  array for module/value pairs if no module was specified.
 	 */
-	public static function generateDynamicDataFromAPI( \Title $title, $which = null ) {
+	public static function generateDynamicDataFromAPI( Title $title, $which = null ) {
 		if ( $which === null ) {
 			$result = [
 				'description' => '',
@@ -227,7 +230,7 @@ class MetadataManager {
 		if ( count( $props ) > 0 ) {
 			// Fake an API call
 			$api = new \ApiMain(
-				new \FauxRequest( [
+				new FauxRequest( [
 					'action' => 'query',
 					'titles' => $title->getFullText(),
 					'prop' => implode( '|', $props ),
