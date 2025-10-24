@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"webtoolsmanager-name": "Xestor de ferramentas web",
+	"webtoolsmanager-desc": "Unha extensión de MediaWiki que proporciona unha interface de usuario interactiva para a xestión de ferramentas web para wikis, como Open Graph, analíticas etc.",
+	"webtoolsmanager-error-nopermission": "Non {{GENDER:$1|tes}} permiso para acceder a esta páxina.",
+	"webtoolsmanager-specialpage-link": "Xestor de ferramentas web",
+	"webtoolsmanager-specialpage-title": "Xestor de ferramentas web",
+	"webtoolsmanager-analytics": "Analíticas",
+	"webtoolsmanager-form-help-example": "Por exemplo: $1",
+	"webtoolsmanager-form-analytics-google-id": "Identificador de Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "O identificador deste proxecto de seguimento. Déixao en branco para non utilizar Google Analytics.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "O identificador proporcionado ten un formato incorrecto. Usa un identificador de Google Analytics correcto.",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Anonimizar os enderezos IP",
+	"webtoolsmanager-form-analytics-exclude-titles": "Excluír os títulos do seguimento",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Activar as metaetiquetas de Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Recorrer ao logotipo do wiki",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Se non se atopa ningunha imaxe nun artigo, recorre como respaldo ao logotipo do wiki para a metaetiqueta `image`.",
+	"webtoolsmanager-form-opengraph-description": "Descrición do wiki",
+	"webtoolsmanager-form-opengraph-description-help": "Descrición que aparecerá nas etiquetas de resumo da páxina principal e de calquera páxina que careza de resumo propio. Déixao en branco para non utilizar ningunha descrición.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Identificador da aplicación de Facebook",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Déixao en branco para omitir.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Pseudónimo de Twitter para o wiki",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Déixao en branco para omitir.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Pseudónimo de Twitter para o creador ou propietario do wiki",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Déixao en branco para omitir.",
+	"action-webtoolsmanagement": "xestionar as ferramentas web",
+	"right-webtoolsmanagement": "Xestionar as ferramentas web"
+}
