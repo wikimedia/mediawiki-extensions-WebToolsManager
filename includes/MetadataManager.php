@@ -1,6 +1,7 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\Title\Title;
 
@@ -27,7 +28,7 @@ class MetadataManager {
 		static $c = null;
 
 		if ( $c === null ) {
-			$c = \MediaWiki\MediaWikiServices::getInstance()->getMainObjectStash();
+			$c = MediaWikiServices::getInstance()->getMainObjectStash();
 		}
 
 		return $c;
@@ -45,7 +46,7 @@ class MetadataManager {
 		$cache = self::cache();
 		$config = ConfigService::getValues();
 		$isMainPage = $this->out->getTitle()->isMainPage();
-		$service = \MediaWiki\MediaWikiServices::getInstance();
+		$service = MediaWikiServices::getInstance();
 		$data = [
 			'og:type' => $isMainPage ? 'site' : 'article',
 			'og:title' => $isMainPage ?
@@ -53,7 +54,7 @@ class MetadataManager {
 			'og:locale' => $service->getContentLanguage()->getHtmlCode(),
 			'og:url' => $this->out->getTitle()->getFullURL(),
 			// If dynamic, these may change
-			'og:image' => wfExpandUrl( $wgLogo ),
+			'og:image' => $service->getUrlUtils()->expand( $wgLogo ),
 			'og:description' => $config['opengraph-description'],
 		];
 
@@ -102,7 +103,7 @@ class MetadataManager {
 			$config['opengraph-fallbackOnLogo']
 		) {
 			// Fall back on wiki logo
-			$data['og:image'] = wfExpandUrl( $wgLogo );
+			$data['og:image'] = $service->getUrlUtils()->expand( $wgLogo );
 		}
 
 		if (
