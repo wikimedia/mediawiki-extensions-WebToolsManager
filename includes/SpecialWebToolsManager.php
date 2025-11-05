@@ -25,7 +25,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 		parent::execute( $sub );
 
 		$out = $this->getOutput();
-		$out->setPageTitle( $this->msg( 'webtoolsmanager-specialpage-title' ) );
+		$out->setPageTitle( $this->msg( 'webtoolsmanager-specialpage-title' )->escaped() );
 		$out->addModuleStyles( [
 			'mediawiki.widgets.TagMultiselectWidget.styles',
 			'ext.webToolsManager.specialPage.styles',
