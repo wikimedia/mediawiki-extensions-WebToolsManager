@@ -51,11 +51,11 @@
 	"ExtensionMessagesFiles": {
 		"WebToolsManagerAlias": "WebToolsManager.alias.php"
 	},
-	"callback": "MediaWiki\\Extension\\WebToolsManager\\Hooks::registerExtension",
 	"Hooks": {
-		"BeforePageDisplay": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
-		"SkinTemplateNavigation::Universal": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onSkinTemplateNavigation__Universal" ],
-		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extension\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
+		"PageSaveComplete": "MediaWiki\\Extension\\WebToolsManager\\Hooks::onPageContentSaveComplete",
+		"BeforePageDisplay": "MediaWiki\\Extension\\WebToolsManager\\Hooks::onBeforePageDisplay",
+		"SkinTemplateNavigation::Universal": "MediaWiki\\Extension\\WebToolsManager\\Hooks::onSkinTemplateNavigation__Universal",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates"
 	},
 	"config": {
 		"WebToolsManagerAllowGoogleAnalytics": {
@@ -63,7 +63,7 @@
 		}
 	},
 	"ConfigRegistry": {
-		"webtoolsmanager": "GlobalVarConfig::newInstance"
+		"webtoolsmanager": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
 	},
 	"GroupPermissions": {
 		"sysop": {
@@ -71,7 +71,7 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.40"
+		"MediaWiki": ">= 1.41"
 	},
 	"AvailableRights": [
 		"webtoolsmanagement"
