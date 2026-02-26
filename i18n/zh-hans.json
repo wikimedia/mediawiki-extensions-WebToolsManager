@@ -1,12 +1,33 @@
 {
 	"@metadata": {
 		"authors": [
-			"沈澄心"
+			"沈澄心",
+			"GuoPC"
 		]
 	},
+	"webtoolsmanager-desc": "为wiki的web工具管理提供交互式用户界面的MediaWiki扩展，例如Open Graph、Analytics等。",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|您}}没有权限访问此页面。",
+	"webtoolsmanager-specialpage-link": "WebTools管理",
+	"webtoolsmanager-specialpage-title": "WebTools管理",
 	"webtoolsmanager-analytics": "分析",
+	"webtoolsmanager-form-help-example": "例如：$1",
+	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
+	"webtoolsmanager-form-analytics-google-id-help": "此跟踪项目的ID。留空则完全不使用Google Analytics。",
+	"webtoolsmanager-form-analytics-google-id-badformat": "提供的ID格式错误。请使用正确的Google Analytics ID。",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "匿名化IP地址",
+	"webtoolsmanager-form-analytics-exclude-titles": "从跟踪排除标题",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "启用Open Graph meta标签",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "改用wiki标志",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "若在条目里找不到图像，则`image` meta标签改用wiki标志。",
 	"webtoolsmanager-form-opengraph-description": "wiki描述",
+	"webtoolsmanager-form-opengraph-description-help": "描述会呈现在用于主页面的摘要标签，以及任何没有摘要的页面。留空则无描述。",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Facebook应用程序ID",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "留空以跳过。",
-	"webtoolsmanager-form-opengraph-twitter-site-help": "留空以跳过。"
+	"webtoolsmanager-form-opengraph-twitter-site": "wiki的Twitter用户名",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "留空以跳过。",
+	"webtoolsmanager-form-opengraph-twitter-creator": "wiki的创建者或拥有者在Twitter上的用户名",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "留空以跳过。",
+	"action-webtoolsmanagement": "管理Web工具",
+	"right-webtoolsmanagement": "管理Web工具"
 }
