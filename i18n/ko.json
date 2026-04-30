@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
 	"webtoolsmanager-error-nopermission": "{{GENDER:$1|}}이 문서에 접근할 권한이 없습니다.",
+	"webtoolsmanager-specialpage-link": "WebTools 관리자",
+	"webtoolsmanager-specialpage-title": "WebTools 관리자",
 	"webtoolsmanager-form-help-example": "예: $1",
 	"webtoolsmanager-form-analytics-google-id": "Google Analytics ID",
 	"webtoolsmanager-opengraph": "오픈 그래프",
