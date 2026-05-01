@@ -13,7 +13,12 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	const PAGE_NAME = 'WebToolsManager';
 
 	public function __construct() {
-		parent::__construct( self::PAGE_NAME, '', false );
+		parent::__construct( self::PAGE_NAME );
+	}
+
+	/** @inheritDoc */
+	public function isListed() {
+		return false;
 	}
 
 	/**
