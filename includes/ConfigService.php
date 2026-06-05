@@ -130,7 +130,7 @@ class ConfigService {
 	 */
 	public static function validateGoogleId( $value, $alldata, $form ) {
 		$valid = (
-			empty( $value ) ||
+			$value === '' ||
 			(bool)preg_match(
 				// UA-#########-#
 				"/^UA-[0-9]{9}-[0-9]/",

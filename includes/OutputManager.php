@@ -85,7 +85,7 @@ class OutputManager {
 		$googleAnonymize = $config['analytics-google-anonymizeip'];
 		$excludedTitleNames = explode( "\n", $config['analytics-exclude-titles'] );
 		if (
-			!empty( $googleId ) &&
+			$googleId !== '' &&
 			!in_array( $this->out->getPageTitle(), $excludedTitleNames )
 		) {
 			$script = implode(
@@ -102,6 +102,7 @@ class OutputManager {
 					'</script>'
 				]
 			);
+			// @phan-suppress-next-line SecurityCheck-XSS
 			$this->out->addScript( $script );
 		}
 	}

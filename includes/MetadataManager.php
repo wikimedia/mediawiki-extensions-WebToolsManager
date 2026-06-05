@@ -65,17 +65,18 @@ class MetadataManager {
 		];
 
 		// Facebook
-		if ( !empty( $config['opengraph-facebook-appid'] ) ) {
+		if ( $config['opengraph-facebook-appid'] !== '' ) {
 			$data['fb:app_id'] = $config['opengraph-facebook-appid'];
 		}
 
 		// Twitter
-		if ( !empty( $config['opengraph-twitter-site'] ) ) {
+		$useTwitter = false;
+		if ( $config['opengraph-twitter-site'] !== '' ) {
 			$useTwitter = true;
 			$data['twitter:site'] = $config['opengraph-twitter-site'];
 		}
 
-		if ( !empty( $config['opengraph-twitter-creator'] ) ) {
+		if ( $config['opengraph-twitter-creator'] !== '' ) {
 			$useTwitter = true;
 			$data['twitter:creator'] = $config['opengraph-twitter-creator'];
 		}
@@ -105,7 +106,7 @@ class MetadataManager {
 		}
 
 		if (
-			empty( $data['og:image'] ) &&
+			$data['og:image'] === '' &&
 			$config['opengraph-fallbackOnLogo']
 		) {
 			// Fall back on wiki logo
@@ -113,7 +114,7 @@ class MetadataManager {
 		}
 
 		if (
-			empty( $data['og:description'] ) &&
+			$data['og:description'] === '' &&
 			$config['opengraph-description']
 		) {
 			// Fall back on wiki logo
@@ -133,11 +134,11 @@ class MetadataManager {
 		$values = self::generateDynamicDataFromAPI( $title );
 
 		self::cache()->set(
-			self::getCacheKey( $title, 'description' ),
+			self::getCacheKey( $title->getDBkey(), 'description' ),
 			$values['description']
 		);
 		self::cache()->set(
-			self::getCacheKey( $title, 'image' ),
+			self::getCacheKey( $title->getDBkey(), 'image' ),
 			$values['image']
 		);
 	}
@@ -216,7 +217,7 @@ class MetadataManager {
 		$props = [];
 		if (
 			(
-				empty( $which ) ||
+				$which === null ||
 				$which === 'description'
 			) &&
 			ExtensionRegistry::getInstance()->isLoaded( 'TextExtracts' )
@@ -226,7 +227,7 @@ class MetadataManager {
 
 		if (
 			(
-				empty( $which ) ||
+				$which === null ||
 				$which === 'image'
 			) &&
 			ExtensionRegistry::getInstance()->isLoaded( 'PageImages' )
@@ -255,16 +256,14 @@ class MetadataManager {
 				$pageData = $api->getResult()->getResultData(
 					[ 'query', 'pages', $title->getArticleID() ]
 				);
-				$contentKey = isset( $pageData['extract'][ApiResult::META_CONTENT] )
-					? $pageData['extract'][ApiResult::META_CONTENT]
-					: '*';
+				$contentKey = $pageData['extract'][ApiResult::META_CONTENT] ?? '*';
 			} else {
 				$pageData = $api->getResult()->getResultData()['query']['pages'][$title->getArticleID()];
 				$contentKey = '*';
 			}
 
 			if ( isset( $pageData['thumbnail'] ) ) {
-				if ( empty( $which ) ) {
+				if ( $which === null ) {
 					$result['image'] = $pageData['thumbnail'];
 				} else {
 					$result = $pageData['thumbnail'];
@@ -272,7 +271,7 @@ class MetadataManager {
 			}
 
 			if ( isset( $pageData['extract'] ) ) {
-				if ( empty( $which ) ) {
+				if ( $which === null ) {
 					$result['description'] = $pageData['extract'][$contentKey];
 				} else {
 					$result = $pageData['extract'][$contentKey];
