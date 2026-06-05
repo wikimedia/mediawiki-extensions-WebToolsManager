@@ -3,7 +3,9 @@ namespace MediaWiki\Extension\WebToolsManager;
 
 use ErrorPageError;
 use HTMLForm;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Config\Config;
+use MediaWiki\Config\ConfigFactory;
+use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\SpecialPage\FormSpecialPage;
 use MediaWiki\User\User;
 
@@ -16,8 +18,14 @@ use MediaWiki\User\User;
 class SpecialWebToolsManager extends FormSpecialPage {
 	const PAGE_NAME = 'WebToolsManager';
 
-	public function __construct() {
+	private readonly Config $config;
+
+	public function __construct(
+		ConfigFactory $configFactory,
+		private readonly PermissionManager $permissionManager,
+	) {
 		parent::__construct( self::PAGE_NAME );
+		$this->config = $configFactory->makeConfig( 'webtoolsmanager' );
 	}
 
 	/** @inheritDoc */
@@ -50,11 +58,7 @@ class SpecialWebToolsManager extends FormSpecialPage {
 	protected function checkExecutePermissions( User $user ) {
 		parent::checkExecutePermissions( $user );
 
-		if (
-			!MediaWikiServices::getInstance()
-				->getPermissionManager()
-				->userHasRight( $user, 'webtoolsmanagement' )
-		) {
+		if ( !$this->permissionManager->userHasRight( $user, 'webtoolsmanagement' ) ) {
 			throw new ErrorPageError(
 				'special-webToolsManager-title',
 				'webtoolsmanager-error-nopermission'
@@ -68,8 +72,6 @@ class SpecialWebToolsManager extends FormSpecialPage {
 	protected function getFormFields() {
 		global $wgSitename;
 		$conf = ConfigService::getValues();
-		$mwConfig = MediaWikiServices::getInstance()->getConfigFactory()
-			->makeConfig( 'webtoolsmanager' );
 
 		$analyticsFields = [];
 		$fields = [
@@ -135,7 +137,7 @@ class SpecialWebToolsManager extends FormSpecialPage {
 			],
 		];
 
-		if ( $mwConfig->get( 'WebToolsManagerAllowGoogleAnalytics' ) ) {
+		if ( $this->config->get( 'WebToolsManagerAllowGoogleAnalytics' ) ) {
 			$analyticsFields = [
 				// Analytics
 				'analytics-google-id' => [
