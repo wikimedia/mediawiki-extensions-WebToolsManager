@@ -3,6 +3,8 @@ namespace MediaWiki\Extension\WebToolsManager;
 
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
+use Wikimedia\ArrayUtils\ArrayUtils;
+
 /**
  * WebToolsManager extension hooks
  *
@@ -68,9 +70,16 @@ class Hooks {
 				'active' => ( $url == $title->getLocalURL() ),
 				'class' => [ 'ext-webToolsManager-link' ]
 			];
-			$personal_urls = wfArrayInsertAfter(
-				$personal_urls, [ 'webtoolsmanager' => $link ], 'preferences'
-			);
+			if ( method_exists( ArrayUtils::class, 'insertAfter' ) ) {
+				// MW 1.46+
+				$personal_urls = ArrayUtils::insertAfter(
+					$personal_urls, [ 'webtoolsmanager' => $link ], 'preferences'
+				);
+			} else {
+				$personal_urls = wfArrayInsertAfter(
+					$personal_urls, [ 'webtoolsmanager' => $link ], 'preferences'
+				);
+			}
 		}
 	}
 
