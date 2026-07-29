@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Dir}} hutt net d'Recht, fir op dës Säit zouzegräifen.",
 	"webtoolsmanager-form-help-example": "Zum Beispill: $1",
 	"webtoolsmanager-form-opengraph-description": "Wiki Beschreiwung",
 	"webtoolsmanager-form-opengraph-twitter-creator-help": "Eidel loosse fir z'iwwersprangen"
