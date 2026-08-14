@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"webtoolsmanager-desc": "Kordhinta MediaWiki oo bixisa is-dhexgal isticmaale oo loogu talagalay maaraynta aaladaha webka ee wiki-yada, sida Open Graph, falanqaynta, iwm.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|Adigu}} ma lihid oggolaanshaha aad ku geli karto boggan.",
+	"webtoolsmanager-specialpage-link": "Maareeyaha Aaladaha Webka",
+	"webtoolsmanager-specialpage-title": "Maareeyaha Aaladaha Webka",
+	"webtoolsmanager-analytics": "Falanqaynta",
+	"webtoolsmanager-form-help-example": "Tusaale ahaan: $1",
+	"webtoolsmanager-form-analytics-google-id": "Aqoonsiga Google Analytics",
+	"webtoolsmanager-form-analytics-google-id-help": "Aqoonsiga mashruucan raadraaca. Ka tag meel bannaan si aan Google Analytics loo isticmaalin gabi ahaanba.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "Aqoonsiga la bixiyay waa mid qaab ahaan khaldan. Fadlan isticmaal aqoonsi Google Analytics oo sax ah",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "Qari aqoonsiga cinwaannada IP-ga",
+	"webtoolsmanager-form-analytics-exclude-titles": "Ka reeb cinwaannada raadraaca",
+	"webtoolsmanager-opengraph": "Open Graph",
+	"webtoolsmanager-form-opengraph-activate": "Daar meta calaamada Open Graph",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "U isticmaal astaanta wiki-ga beddel ahaan",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Haddii maqaalka aan laga helin sawir, u isticmaal astaanta wiki-ga beddel ahaan meta calaamada `image`",
+	"webtoolsmanager-form-opengraph-description": "Sharaxaadda wiki-ga",
+	"webtoolsmanager-form-opengraph-description-help": "Sharaxaadda ka soo muuqan doonta summadaha kooban ee bogga hore, iyo bog kasta oo aan lahayn kooban u gaar ah. Ka gudub meel bannaan haddii aan la doonayn wax sharaxaad ah.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "Aqoonsiga Abka Facebook",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "Ka tag meel bannaan si aad uga boodo.",
+	"webtoolsmanager-form-opengraph-twitter-site": "Gacanta Twitter-ka ee wiki-ga",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "Ka tag meel bannaan si aad uga boodo.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "Gacanta Twitter-ka ee abuuraha ama milkiilaha wiki-ga",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "Ka tag meel bannaan si aad uga boodo.",
+	"action-webtoolsmanagement": "Maamul aaladaha Webka",
+	"right-webtoolsmanagement": "Maamul aaladaha Webka"
+}
