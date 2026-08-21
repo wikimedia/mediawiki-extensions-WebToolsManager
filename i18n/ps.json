@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"webtoolsmanager-name": "وېب‌کارتوکو مهاروونکی",
+	"webtoolsmanager-desc": "د مېډياويکي يو شاتاړی چې د ويکي‌گانو لپاره د وېب کارتوکو د چاروالۍ  متقابل کارن‌مخبڼه چمتو کوي، لکه پرانېستی‌گراپ، ارزونې، او نور.",
+	"webtoolsmanager-error-nopermission": "{{GENDER:$1|تاسو}} دې مخ ته د لاسرسي پرېښه نلرئ.",
+	"webtoolsmanager-specialpage-link": "وېب‌کارتوکو مهاروونکی",
+	"webtoolsmanager-specialpage-title": "وېب‌کارتوکو مهاروونکی",
+	"webtoolsmanager-analytics": "ارزونې",
+	"webtoolsmanager-form-help-example": "د بېلگې په توگه: $1",
+	"webtoolsmanager-form-analytics-google-id": "د گوگل ارزونې پېژند",
+	"webtoolsmanager-form-analytics-google-id-help": "د دې پلنيونکې پروژې لپاره پېژند. تش يې پرېږدئ؛ ترڅو گوگل ارزونې څخه هېڅ گټه وانخلي.",
+	"webtoolsmanager-form-analytics-google-id-badformat": "ورکړل‌شوی پېژند بدبڼی دی. مهرباني وکړئ د گوگل ارزونې سم پېژند وکاروئ",
+	"webtoolsmanager-form-analytics-google-anonymizeip": "وېب پتې بې‌نومه کول",
+	"webtoolsmanager-form-analytics-exclude-titles": "سرليکونه له پلنيوي وباسئ",
+	"webtoolsmanager-opengraph": "پرانېستی گراپ",
+	"webtoolsmanager-form-opengraph-activate": "د پرانېستي گراپ ورهاخوا نښلنونه چارنول",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo": "ويکي نښان ته بېرته راتلل",
+	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "که په يوه ليکنه کې کوم انځور ونه موندل شي؛ نو د 'انځور' گڼ نښلن لپاره ويکي نښان ته بېرته راشئ",
+	"webtoolsmanager-form-opengraph-description": "د ويکي څرگنداوی",
+	"webtoolsmanager-form-opengraph-description-help": "هغه څرگنداوی چې د ار مخ لپاره د لنډيز نښلنونو او هر هغه مخ کې به څرگند شي چې په خپله هېڅ لنډيز نلري. د هېڅ څرگنداوي لپاره يې تش پرېږدئ.",
+	"webtoolsmanager-form-opengraph-facebook-appid": "د فيسبوک کاريال پېژند",
+	"webtoolsmanager-form-opengraph-facebook-appid-help": "پرېښودو لپاره يې تش پرېږدئ.",
+	"webtoolsmanager-form-opengraph-twitter-site": "ويکي لپاره ټويټر سمبالول",
+	"webtoolsmanager-form-opengraph-twitter-site-help": "پرېښودو لپاره يې تش پرېږدئ.",
+	"webtoolsmanager-form-opengraph-twitter-creator": "د ويکي جوړوونکي يا څښتن لپاره ټويټر سمبالول",
+	"webtoolsmanager-form-opengraph-twitter-creator-help": "پرېښودو لپاره يې تش پرېږدئ.",
+	"action-webtoolsmanagement": "وېب کارتوکي مهارول",
+	"right-webtoolsmanagement": "وېب کارتوکي مهارول"
+}
