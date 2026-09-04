@@ -259,7 +259,7 @@ class MetadataManager {
 					? $pageData['extract'][ApiResult::META_CONTENT]
 					: '*';
 			} else {
-				$pageData = $api->getResult()->getData()['query']['pages'][$title->getArticleID()];
+				$pageData = $api->getResult()->getResultData()['query']['pages'][$title->getArticleID()];
 				$contentKey = '*';
 			}
 
