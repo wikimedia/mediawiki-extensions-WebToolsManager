@@ -1,7 +1,11 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use ErrorPageError;
+use HTMLForm;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\FormSpecialPage;
+use MediaWiki\User\User;
 
 /**
  * Settings SpecialPage for WebToolsManager extension
@@ -9,7 +13,7 @@ use MediaWiki\MediaWikiServices;
  * @file
  * @ingroup Extensions
  */
-class SpecialWebToolsManager extends \FormSpecialPage {
+class SpecialWebToolsManager extends FormSpecialPage {
 	const PAGE_NAME = 'WebToolsManager';
 
 	public function __construct() {
@@ -43,7 +47,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	 * @param User $user
 	 * @throws ErrorPageError
 	 */
-	protected function checkExecutePermissions( \User $user ) {
+	protected function checkExecutePermissions( User $user ) {
 		parent::checkExecutePermissions( $user );
 
 		if (
@@ -51,7 +55,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 				->getPermissionManager()
 				->userHasRight( $user, 'webtoolsmanagement' )
 		) {
-			throw new \ErrorPageError(
+			throw new ErrorPageError(
 				'special-webToolsManager-title',
 				'webtoolsmanager-error-nopermission'
 			);
@@ -64,7 +68,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	protected function getFormFields() {
 		global $wgSitename;
 		$conf = ConfigService::getValues();
-		$mwConfig = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()
+		$mwConfig = MediaWikiServices::getInstance()->getConfigFactory()
 			->makeConfig( 'webtoolsmanager' );
 
 		$analyticsFields = [];
@@ -168,7 +172,7 @@ class SpecialWebToolsManager extends \FormSpecialPage {
 	 * @param HTMLForm|null $form
 	 * @return bool
 	 */
-	public function onSubmit( array $data, ?\HTMLForm $form = null ) {
+	public function onSubmit( array $data, ?HTMLForm $form = null ) {
 		$validFields = ConfigService::getValidConfigKeys();
 		$result = [];
 

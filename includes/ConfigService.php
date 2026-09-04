@@ -1,7 +1,9 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use HTMLForm;
 use MediaWiki\MediaWikiServices;
+use Message;
 
 /**
  * Configuration service for WebToolsManager
@@ -124,7 +126,7 @@ class ConfigService {
 	 * @param string $value Field value
 	 * @param array $alldata All values
 	 * @param HTMLForm $form HTMLForm
-	 * @return bool|wfMessage Field is valid, or a message if it's invalid
+	 * @return bool|Message Field is valid, or a message if it's invalid
 	 */
 	public static function validateGoogleId( $value, $alldata, $form ) {
 		$valid = (

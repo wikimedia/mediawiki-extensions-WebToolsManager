@@ -3,7 +3,14 @@ namespace MediaWiki\Extension\WebToolsManager;
 
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
+use DatabaseUpdater;
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
+use MediaWiki\SpecialPage\SpecialPage;
+use Skin;
+use SkinTemplate;
 use Wikimedia\ArrayUtils\ArrayUtils;
+use WikiPage;
 
 /**
  * WebToolsManager extension hooks
@@ -29,10 +36,10 @@ class Hooks {
 	 * A method to respond to hook BeforePageDisplay
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 	 *
-	 * @param \OutputPage $out The OutputPage object.
-	 * @param \Skin $skin - Skin object that will be used to generate the page, added in 1.13.
+	 * @param OutputPage $out The OutputPage object.
+	 * @param Skin $skin - Skin object that will be used to generate the page, added in 1.13.
 	 */
-	public static function onBeforePageDisplay( \OutputPage $out, \Skin $skin ) {
+	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
 		// Add modules for the special page
 		if ( $out->getTitle()->isSpecial( 'WebToolsManager' ) ) {
 			$out->addModules( 'ext.webToolsManager.specialPage' );
@@ -57,13 +64,13 @@ class Hooks {
 	public static function onSkinTemplateNavigation__Universal( $sktemplate, &$links ) {
 		$user = $sktemplate->getUser();
 		if (
-			\MediaWiki\MediaWikiServices::getInstance()
+			MediaWikiServices::getInstance()
 			->getPermissionManager()
 			->userHasRight( $user, 'webtoolsmanagement' )
 		) {
 			$title = $sktemplate->getTitle();
 			$personal_urls = &$links['user-menu'];
-			$url = \SpecialPage::getTitleFor( 'WebToolsManager' )->getLocalURL();
+			$url = SpecialPage::getTitleFor( 'WebToolsManager' )->getLocalURL();
 			$link = [
 				'href' => $url,
 				'text' => $sktemplate->msg( 'webtoolsmanager-specialpage-link' )->text(),
@@ -89,7 +96,7 @@ class Hooks {
 	 *
 	 * @param DatabaseUpdater $updater
 	 */
-	public static function onLoadExtensionSchemaUpdates( \DatabaseUpdater $updater ) {
+	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
 		$dir = dirname( __DIR__ );
 		$updater->addExtensionTable(
 			'webtools_config',

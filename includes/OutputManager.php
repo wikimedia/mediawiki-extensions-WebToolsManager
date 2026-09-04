@@ -2,6 +2,8 @@
 namespace MediaWiki\Extension\WebToolsManager;
 
 use MediaWiki\Html\Html;
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
 
 /**
  * Output manager, controls the output according to the database
@@ -12,7 +14,7 @@ class OutputManager {
 	/**
 	 * @inheritDoc
 	 */
-	public function __construct( \OutputPage $out ) {
+	public function __construct( OutputPage $out ) {
 		$this->out = $out;
 	}
 
@@ -71,7 +73,7 @@ class OutputManager {
 	 * Output the script required for analytics, if applicable
 	 */
 	public function outputAnalytics() {
-		$mwConfig = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()
+		$mwConfig = MediaWikiServices::getInstance()->getConfigFactory()
 			->makeConfig( 'webtoolsmanager' );
 		if ( !$mwConfig->get( 'WebToolsManagerAllowGoogleAnalytics' ) ) {
 			return;

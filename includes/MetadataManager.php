@@ -1,9 +1,15 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
+use ApiMain;
+use ApiResult;
+use BagOStuff;
+use ExtensionRegistry;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\Title\Title;
+use WANObjectCache;
 
 /**
  * Controls and manages the metadata needed for pages
@@ -14,7 +20,7 @@ class MetadataManager {
 	/**
 	 * @inheritDoc
 	 */
-	public function __construct( \OutputPage $out ) {
+	public function __construct( OutputPage $out ) {
 		$this->out = $out;
 	}
 
@@ -22,7 +28,7 @@ class MetadataManager {
 	 * Hold onto a cache for our operations. Static so it can reuse the same
 	 * in-process cache in different instances.
 	 *
-	 * @return \BagOStuff
+	 * @return BagOStuff
 	 */
 	protected static function cache() {
 		static $c = null;
@@ -93,7 +99,7 @@ class MetadataManager {
 					$this->out->getPageTitle(),
 					'image'
 				),
-				\WANObjectCache::TTL_WEEK,
+				WANObjectCache::TTL_WEEK,
 				[ $this, 'generateImageFromApi' ]
 			);
 		}
@@ -213,7 +219,7 @@ class MetadataManager {
 				empty( $which ) ||
 				$which === 'description'
 			) &&
-			\ExtensionRegistry::getInstance()->isLoaded( 'TextExtracts' )
+			ExtensionRegistry::getInstance()->isLoaded( 'TextExtracts' )
 		) {
 			$props[] = 'extracts';
 		}
@@ -223,14 +229,14 @@ class MetadataManager {
 				empty( $which ) ||
 				$which === 'image'
 			) &&
-			\ExtensionRegistry::getInstance()->isLoaded( 'PageImages' )
+			ExtensionRegistry::getInstance()->isLoaded( 'PageImages' )
 		) {
 			$props[] = 'pageimages';
 		}
 
 		if ( count( $props ) > 0 ) {
 			// Fake an API call
-			$api = new \ApiMain(
+			$api = new ApiMain(
 				new FauxRequest( [
 					'action' => 'query',
 					'titles' => $title->getFullText(),
@@ -249,8 +255,8 @@ class MetadataManager {
 				$pageData = $api->getResult()->getResultData(
 					[ 'query', 'pages', $title->getArticleID() ]
 				);
-				$contentKey = isset( $pageData['extract'][\ApiResult::META_CONTENT] )
-					? $pageData['extract'][\ApiResult::META_CONTENT]
+				$contentKey = isset( $pageData['extract'][ApiResult::META_CONTENT] )
+					? $pageData['extract'][ApiResult::META_CONTENT]
 					: '*';
 			} else {
 				$pageData = $api->getResult()->getData()['query']['pages'][$title->getArticleID()];
