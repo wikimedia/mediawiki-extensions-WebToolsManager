@@ -145,8 +145,7 @@ class SpecialWebToolsManager extends FormSpecialPage {
 					'size' => '10',
 					'label-message' => 'webtoolsmanager-form-analytics-google-id',
 					'default' => $conf[ 'analytics-google-id' ],
-					'validation-callback' =>
-						'MediaWiki\\Extension\\WebToolsManager\\ConfigService::validateGoogleId',
+					'validation-callback' => ConfigService::validateGoogleId( ... ),
 					'help-message' => 'webtoolsmanager-form-analytics-google-id-help',
 					'section' => 'analytics'
 				],
