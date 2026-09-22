@@ -77,7 +77,7 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.42"
+		"MediaWiki": ">= 1.43"
 	},
 	"AvailableRights": [
 		"webtoolsmanagement"

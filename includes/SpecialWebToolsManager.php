@@ -2,9 +2,9 @@
 namespace MediaWiki\Extension\WebToolsManager;
 
 use ErrorPageError;
-use HTMLForm;
 use MediaWiki\Config\Config;
 use MediaWiki\Config\ConfigFactory;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\SpecialPage\FormSpecialPage;
 use MediaWiki\User\User;

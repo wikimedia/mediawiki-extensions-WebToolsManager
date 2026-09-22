@@ -1,15 +1,15 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
-use ApiMain;
-use ApiResult;
-use BagOStuff;
-use ExtensionRegistry;
+use MediaWiki\Api\ApiMain;
+use MediaWiki\Api\ApiResult;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\Title\Title;
-use WANObjectCache;
+use Wikimedia\ObjectCache\BagOStuff;
+use Wikimedia\ObjectCache\WANObjectCache;
 
 /**
  * Controls and manages the metadata needed for pages

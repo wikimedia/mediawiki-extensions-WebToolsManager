@@ -1,9 +1,9 @@
 <?php
 namespace MediaWiki\Extension\WebToolsManager;
 
-use HTMLForm;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\MediaWikiServices;
-use Message;
+use MediaWiki\Message\Message;
 
 /**
  * Configuration service for WebToolsManager
