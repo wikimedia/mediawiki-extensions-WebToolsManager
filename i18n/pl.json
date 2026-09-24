@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rail"
+			"Rail",
+			"PanWor"
 		]
 	},
 	"webtoolsmanager-name": "Menedżer narzędzi sieciowych",
@@ -21,7 +22,7 @@
 	"webtoolsmanager-form-opengraph-fallbackOnLogo": "Alternatywnie użyj logo wiki",
 	"webtoolsmanager-form-opengraph-fallbackOnLogo-help": "Jeżeli artykuł nie zawiera żadnego obrazu, użyj logo wiki w meta-tagu `image`",
 	"webtoolsmanager-form-opengraph-description": "Opis wiki",
-	"webtoolsmanager-form-opengraph-description-help": "Opis, który pojawi się w tagach podsumowujących stronę główną i każdą inną stronę, która nie posiada własnego opisu. Zostaw to pole puste, jeżeli nie chcesz używać żadnego opisu.",
+	"webtoolsmanager-form-opengraph-description-help": "Opis, który pojawi się w tagach podsumowujących stronę główną i każdą inną stronę, która nie ma własnego opisu. Zostaw to pole puste, jeżeli nie chcesz używać żadnego opisu.",
 	"webtoolsmanager-form-opengraph-facebook-appid": "Identyfikator aplikacji Facebooka",
 	"webtoolsmanager-form-opengraph-facebook-appid-help": "Pozostaw to pole puste, aby pominąć aplikację Facebooka.",
 	"webtoolsmanager-form-opengraph-twitter-site": "Pośrednik wiki na Twitterze",
